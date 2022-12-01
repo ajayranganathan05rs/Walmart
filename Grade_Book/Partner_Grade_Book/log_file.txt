@@ -1,0 +1,339 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2022 - 08:56:46
+Django version 3.2.12, using settings 'Walmart.settings'
+Starting development server at http://0:8086/
+Quit the server with CONTROL-C.
+[25/Nov/2022 08:56:47] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 08:56:47] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 08:56:56] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 08:56:56] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 08:56:57] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 08:56:58] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 08:56:58] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 08:56:59] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 08:57:00] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 08:57:00] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 08:57:01] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 08:57:02] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 08:57:04] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 08:57:04] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 08:57:04] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 08:57:04] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 08:57:06] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 09:01:29] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 09:01:30] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:02:45] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 09:02:46] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:02:46] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 09:02:47] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 09:02:47] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 09:02:49] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 09:02:56] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:02:59] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[25/Nov/2022 09:03:00] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[25/Nov/2022 09:03:07] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[25/Nov/2022 09:03:10] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[25/Nov/2022 09:03:15] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[25/Nov/2022 09:03:17] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[25/Nov/2022 09:03:19] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[25/Nov/2022 09:03:20] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[25/Nov/2022 09:03:21] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[25/Nov/2022 09:03:27] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:03:32] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:03:43] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:03:43] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 09:03:44] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 09:03:45] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 09:03:45] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 09:04:29] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:04:30] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[25/Nov/2022 09:04:34] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:04:36] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[25/Nov/2022 09:04:38] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[25/Nov/2022 09:05:46] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:05:46] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 09:05:46] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 09:05:46] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 09:05:48] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 09:05:58] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:11:26] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 09:11:27] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:11:28] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 09:11:28] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 09:11:30] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 09:11:31] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 09:11:42] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[25/Nov/2022 09:11:43] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[25/Nov/2022 09:11:53] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[25/Nov/2022 09:12:03] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[25/Nov/2022 09:12:06] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[25/Nov/2022 09:12:12] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:49:09] code 400, message Bad request syntax ('MGLNDD_52.165.83.216_8086')
+[25/Nov/2022 09:49:09] "MGLNDD_52.165.83.216_8086" 400 -
+[25/Nov/2022 09:57:52] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 09:57:52] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 09:57:53] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 09:57:54] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 09:57:55] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 09:57:56] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 09:58:01] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 11:21:00] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 11:21:00] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 11:21:01] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 11:21:02] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 11:21:02] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[25/Nov/2022 12:43:10] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 12:43:10] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[25/Nov/2022 12:43:11] "GET /static/css/main.css HTTP/1.1" 200 360359
+[25/Nov/2022 12:43:12] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 12:56:27] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 12:56:27] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 12:56:29] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[25/Nov/2022 12:56:38] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[25/Nov/2022 12:56:41] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 12:56:45] "GET /static/download_template/Digital%20Grade%20Book%20Roster%20V2%20Template.xlsx HTTP/1.1" 200 26998
+[25/Nov/2022 13:42:04] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 13:42:05] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 13:48:51] "GET /static/download_template/Digital%20Grade%20Book%20Roster%20V2%20Template.xlsx HTTP/1.1" 200 26998
+[25/Nov/2022 13:53:28] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[25/Nov/2022 13:53:47] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[25/Nov/2022 16:52:57] "GET /static/css/main.css HTTP/1.1" 304 0
+[25/Nov/2022 18:27:27,203] - Broken pipe from ('162.142.125.220', 43790)
+
+[25/Nov/2022 18:27:27] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x80x<')
+[25/Nov/2022 18:27:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Nov/2022 18:27:28] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 18:27:28,306] - Broken pipe from ('162.142.125.220', 56746)
+
+[25/Nov/2022 18:27:28] "GET / HTTP/1.1" 302 0
+[25/Nov/2022 18:27:28] code 505, message Invalid HTTP version (2.0)
+[25/Nov/2022 18:27:28] "PRI * HTTP/2.0" 505 -
+[25/Nov/2022 18:27:28] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[25/Nov/2022 18:27:28] code 505, message Invalid HTTP version (2.0)
+[25/Nov/2022 18:27:28] "PRI * HTTP/2.0" 505 -
+[25/Nov/2022 18:27:28] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+Not Found: /favicon.ico
+[25/Nov/2022 18:27:28] "GET /favicon.ico HTTP/1.1" 404 3254
+[26/Nov/2022 17:44:29,529] - Broken pipe from ('162.142.125.222', 39292)
+
+[26/Nov/2022 17:44:29] code 400, message Bad request version ('À\x14À')
+[26/Nov/2022 17:44:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Nov/2022 17:44:30] "GET / HTTP/1.1" 302 0
+[26/Nov/2022 17:44:30,628] - Broken pipe from ('162.142.125.222', 49550)
+
+[26/Nov/2022 17:44:30] "GET / HTTP/1.1" 302 0
+[26/Nov/2022 17:44:30] code 505, message Invalid HTTP version (2.0)
+[26/Nov/2022 17:44:30] "PRI * HTTP/2.0" 505 -
+[26/Nov/2022 17:44:30] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[26/Nov/2022 17:44:30] code 505, message Invalid HTTP version (2.0)
+[26/Nov/2022 17:44:30] "PRI * HTTP/2.0" 505 -
+[26/Nov/2022 17:44:30] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+Not Found: /favicon.ico
+[26/Nov/2022 17:44:30] "GET /favicon.ico HTTP/1.1" 404 3254
+[27/Nov/2022 12:33:50] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Nov/2022 12:33:50] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Nov/2022 19:18:09] code 400, message Bad request syntax ('MGLNDD_52.165.83.216_8086')
+[27/Nov/2022 19:18:09] "MGLNDD_52.165.83.216_8086" 400 -
+[27/Nov/2022 22:35:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Nov/2022 22:35:54] "  /*à     Cookie: mstshash=Administr" 400 -
+[28/Nov/2022 01:26:45,707] - Broken pipe from ('167.94.138.63', 53262)
+
+[28/Nov/2022 01:26:45] code 400, message Bad request version ('À\x14À')
+[28/Nov/2022 01:26:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Nov/2022 01:26:46] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 01:26:46,877] - Broken pipe from ('167.94.138.63', 49832)
+
+[28/Nov/2022 01:26:46] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 01:26:47] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 01:26:47] "PRI * HTTP/2.0" 505 -
+[28/Nov/2022 01:26:47] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 01:26:47] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 01:26:47] "PRI * HTTP/2.0" 505 -
+[28/Nov/2022 01:26:47] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+Not Found: /favicon.ico
+[28/Nov/2022 01:26:47] "GET /favicon.ico HTTP/1.1" 404 3254
+[28/Nov/2022 03:53:06,992] - Broken pipe from ('104.152.52.115', 47530)
+
+[28/Nov/2022 05:13:37,429] - Broken pipe from ('162.142.125.220', 48248)
+
+[28/Nov/2022 05:13:37] code 400, message Bad request version ('À\x14À')
+[28/Nov/2022 05:13:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Nov/2022 05:13:38] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 05:13:38,538] - Broken pipe from ('162.142.125.220', 52324)
+
+[28/Nov/2022 05:13:38] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 05:13:38] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 05:13:38] "PRI * HTTP/2.0" 505 -
+[28/Nov/2022 05:13:38] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 05:13:38] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 05:13:38] "PRI * HTTP/2.0" 505 -
+[28/Nov/2022 05:13:38] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+Not Found: /favicon.ico
+[28/Nov/2022 05:13:38] "GET /favicon.ico HTTP/1.1" 404 3254
+[28/Nov/2022 08:06:14] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 08:06:15] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 08:06:15] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[28/Nov/2022 08:06:16] "GET /static/css/main.css HTTP/1.1" 200 360359
+[28/Nov/2022 08:06:16] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[28/Nov/2022 08:06:17] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[28/Nov/2022 08:07:35] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[28/Nov/2022 08:07:36] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[28/Nov/2022 08:07:37] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[28/Nov/2022 08:07:39] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[28/Nov/2022 08:07:40] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[28/Nov/2022 08:07:41] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 13:01:00,764] - Broken pipe from ('162.142.125.219', 47378)
+
+[28/Nov/2022 13:01:00] code 400, message Bad request version ('À\x14À')
+[28/Nov/2022 13:01:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Nov/2022 13:01:01] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 13:01:01,857] - Broken pipe from ('162.142.125.219', 59074)
+
+[28/Nov/2022 13:01:01] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 13:01:01] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 13:01:01] "PRI * HTTP/2.0" 505 -
+[28/Nov/2022 13:01:02] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 13:01:02] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 13:01:02] "PRI * HTTP/2.0" 505 -
+[28/Nov/2022 13:01:02] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+Not Found: /favicon.ico
+[28/Nov/2022 13:01:02] "GET /favicon.ico HTTP/1.1" 404 3254
+[28/Nov/2022 13:10:42] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 13:10:43] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 13:10:44] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[28/Nov/2022 13:10:45] "GET /static/css/main.css HTTP/1.1" 200 360359
+[28/Nov/2022 13:10:46] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[28/Nov/2022 13:10:48] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[28/Nov/2022 13:13:25] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[28/Nov/2022 13:13:26] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[28/Nov/2022 13:13:36] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[28/Nov/2022 13:13:43] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[28/Nov/2022 13:13:47] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[28/Nov/2022 16:45:51] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 16:45:51] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 16:46:15] "GET /static/download_template/Digital%20Grade%20Book%20Roster%20V2%20Template.xlsx HTTP/1.1" 200 26998
+[28/Nov/2022 17:06:54] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 17:06:54] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 17:06:55] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[28/Nov/2022 17:06:55] "GET /static/css/main.css HTTP/1.1" 200 360359
+[28/Nov/2022 17:06:56] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[28/Nov/2022 17:06:57] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[28/Nov/2022 17:06:57] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[28/Nov/2022 17:06:58] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[28/Nov/2022 18:12:03] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 18:12:04] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 18:12:04] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 304 0
+[28/Nov/2022 18:12:05] "GET /static/css/main.css HTTP/1.1" 200 360359
+[28/Nov/2022 18:18:38] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 18:18:38] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 18:18:38] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[28/Nov/2022 18:18:38] "GET /static/css/main.css HTTP/1.1" 200 360359
+[28/Nov/2022 18:18:39] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[28/Nov/2022 19:21:20] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 19:21:21] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 19:21:21] "GET /static/css/main.css HTTP/1.1" 200 360359
+[28/Nov/2022 19:21:21] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[28/Nov/2022 19:21:22] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[28/Nov/2022 19:21:24] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[28/Nov/2022 19:22:02] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 19:22:02] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 19:22:03] "GET /static/css/main.css HTTP/1.1" 200 360359
+[28/Nov/2022 19:22:05] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[28/Nov/2022 19:22:18] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[28/Nov/2022 19:22:18] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[28/Nov/2022 19:22:19] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[28/Nov/2022 19:22:47] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[28/Nov/2022 19:22:57] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[28/Nov/2022 19:23:33] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[28/Nov/2022 19:23:37] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[28/Nov/2022 19:23:39] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+----------------------------------------
+Exception happened during processing of request from ('23.82.17.97', 59880)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.8/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/Ubuntu/.local/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 178, in handle
+    self.handle_one_request()
+  File "/home/Ubuntu/.local/lib/python3.8/site-packages/django/core/servers/basehttp.py", line 186, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 110] Connection timed out
+----------------------------------------
+[28/Nov/2022 21:40:40] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[28/Nov/2022 22:50:04] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 22:50:04] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[28/Nov/2022 22:50:29] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[28/Nov/2022 22:50:30] "GET / HTTP/1.1" 302 0
+[28/Nov/2022 22:50:30] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 10:33:43] "GET / HTTP/1.0" 302 0
+[29/Nov/2022 15:40:18,678] - Broken pipe from ('162.142.125.210', 41754)
+
+[29/Nov/2022 15:40:18] code 400, message Bad request version ('À\x14À')
+[29/Nov/2022 15:40:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Nov/2022 15:40:19] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 15:40:19,787] - Broken pipe from ('162.142.125.210', 58816)
+
+[29/Nov/2022 15:40:19] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 15:40:19] code 505, message Invalid HTTP version (2.0)
+[29/Nov/2022 15:40:19] "PRI * HTTP/2.0" 505 -
+[29/Nov/2022 15:40:20] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 15:40:20] code 505, message Invalid HTTP version (2.0)
+[29/Nov/2022 15:40:20] "PRI * HTTP/2.0" 505 -
+[29/Nov/2022 15:40:20] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+Not Found: /favicon.ico
+[29/Nov/2022 15:40:20] "GET /favicon.ico HTTP/1.1" 404 3254
+[29/Nov/2022 17:05:57] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 17:05:58] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 17:05:59] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[29/Nov/2022 17:05:59] "GET /static/css/main.css HTTP/1.1" 200 360359
+[29/Nov/2022 17:06:01] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[29/Nov/2022 17:06:01] "GET /static/images/favicon.ico HTTP/1.1" 200 3902
+[29/Nov/2022 17:06:14] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 17:06:14] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 17:06:14] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 304 0
+[29/Nov/2022 17:06:14] "GET /static/css/main.css HTTP/1.1" 304 0
+[29/Nov/2022 17:07:24] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[29/Nov/2022 17:07:25] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[29/Nov/2022 17:07:31] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[29/Nov/2022 17:07:34] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[29/Nov/2022 17:07:37] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[29/Nov/2022 17:07:40] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[29/Nov/2022 17:07:42] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[29/Nov/2022 17:25:15] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 17:25:16] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 17:25:18] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 17:25:19] "GET / HTTP/1.1" 302 0
+[29/Nov/2022 17:25:20] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 17:25:22] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[29/Nov/2022 17:25:35] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[29/Nov/2022 17:26:01] "GET /static/css/main.css HTTP/1.1" 200 360359
+[29/Nov/2022 18:06:36] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[29/Nov/2022 18:07:53] "GET /partner_grade_book/quick_attendance HTTP/1.1" 200 17318
+[29/Nov/2022 18:07:54] "GET /static/fonts/fa-solid-900.woff2 HTTP/1.1" 200 79212
+[29/Nov/2022 18:08:29] "GET /partner_grade_book/observation HTTP/1.1" 200 15841
+[29/Nov/2022 18:08:50] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 21183
+[29/Nov/2022 18:09:12] "GET /partner_grade_book/view_roster HTTP/1.1" 200 16459
+[30/Nov/2022 06:43:52] code 400, message Bad request syntax ('MGLNDD_52.165.83.216_8086')
+[30/Nov/2022 06:43:52] "MGLNDD_52.165.83.216_8086" 400 -
+[30/Nov/2022 07:45:34] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[30/Nov/2022 07:45:34] "  /*à     Cookie: mstshash=Administr" 400 -
+[30/Nov/2022 09:58:05] "GET / HTTP/1.1" 302 0
+[30/Nov/2022 09:58:05] "GET /partner_grade_book/home HTTP/1.1" 200 14659
+[30/Nov/2022 09:58:05] "GET /static/css/main.css HTTP/1.1" 200 360359
+[30/Nov/2022 09:58:05] "GET /static/scripts/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+[30/Nov/2022 09:58:06] "GET /static/scripts/main.js HTTP/1.1" 200 1660441
+[30/Nov/2022 09:58:07] "GET /static/images/favicon.ico HTTP/1.1" 200 3902

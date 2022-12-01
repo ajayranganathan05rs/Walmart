@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" sizes="192x192" href="{% static 'images/favicon.ico'%}">
+    <title>WFM Dashboard</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'css/main.css' %} " rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <style>
+        .progress {
+            height: 6px;
+        }
+
+        .widget-numbers {
+            font-size: 22px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-sm-12" id="header">
+                Customer Care L&D 
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid" id="navigation">
+                <div class="col-sm-12 col-md-12 col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <ul class="nav navbar-nav">
+                            <li><a href="home">Home</a></li>
+                            <li><a class="active" href="quick_attendance">Quick Attendance</a></li>
+                            <li><a href="observation">Observations</a></li>
+                            <li><a href="system_tracker">System Tracker</a></li>
+                            <li><a href="view_roster">View Roster</a></li>
+                            <!-- home.html quick_attendance.html observation.html system_cracker.html view_roaster.html-->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-md-8 col-lg-8">
+                <p id="course"><label><b>Course Name :- </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><input type="text" name="course_name" id="course_name" value="NH: CRT" disabled></span></p>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <p class="float-right" id="last_modified"><label><b>Last Modified</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>12/11/2022 06:10 PM</span></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <p id="s_date"><label><b>Select Date </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="select_date"><button onclick="show_dp();" style="background-color: #3860b2;margin: -26px;border-block-color: #3860b2;"><i class="fa fa-angle-down" style="font-size:15px;color:white"></i></button></p>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <p id="c_day"><label><b>Create New Day </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="create_new_day"><button onclick="show_dp1();" style="background-color: #3860b2;margin: -26px;"><i class="fas fa-calendar-alt" style="color: white;"></i></button></p>
+            </div>
+            <div class="col-sm-5 col-md-5 col-lg-5">
+                <button id="create_date_qa">Create Date</button><button id="mark_class_qa">Mark Class Complete</button><button id="refresh_qa">Refresh</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="table-responsive">
+                <table class = "table table-striped">
+                    <thead>
+                        <tr>
+                            <th>User ID</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Present</th>
+                            <th>Absent</th>
+                            <th>Late</th>
+                            <th>Early Out</th>
+                            <th>Involuntary Term</th>
+                            <th>Voluntary Term</th>
+                            <th>No Call No Show</th>
+                            <th>Push</th>
+                            <th>Pre Start</th>
+                            <th>Organizational Movement</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>j0n04in</td>
+                            <td>Judith</td>
+                            <td>Nelson</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>k0n05kz</td>
+                            <td>Jackie</td>
+                            <td>Chan</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>k0n05kz</td>
+                            <td>Jackie</td>
+                            <td>Chan</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>1010Kigh</td>
+                            <td>Jim</td>
+                            <td>Halpert</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>m0c07xm</td>
+                            <td>The</td>
+                            <td>Doctor</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>1010Kigh</td>
+                            <td>Jim</td>
+                            <td>Halpert</td>
+                            <td><input type="checkbox" id></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>1010Kigh</td>
+                            <td>Jim</td>
+                            <td>Halpert</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>k0y08vm</td>
+                            <td>Ryan</td>
+                            <td>Sinclair</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>k0y08vm</td>
+                            <td>Ryan</td>
+                            <td>Sinclair</td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 col-md-1 col-lg-1"  id="t_and_c">
+                <input type="checkbox">
+            </div>
+            <div class="col-sm-9 col-md-9 col-lg-9">
+                <p><b>I have verified that the correct attendance status has been selected for all attendees. I understand that any attendess marked as Voluntary Term. Involuntary Term, Pushed, Recruiting Fall Out, or Organizational Movement will no longer be editable after saving these changes.</b></p>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <button id="reset_qa">Reset Selections</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <button id="s_attend_qa">Submit Attendance</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="toast">
+        <div id="img">Icon</div>
+        <div id="desc">A notification message..</div>
+    </div>
+    <script src="{% static 'scripts/jquery-3.6.0.min.js' %}"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{% static 'scripts/main.js' %}"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript">
+        function show_dp(){
+          $("#select_date").datepicker('show'); //Show on click of button
+          // $("#create_new_day").datepicker('show');
+         }
+         function show_dp1(){
+          // $("#select_date").datepicker('show'); //Show on click of button
+          $("#create_new_day").datepicker('show');
+         }
+        $("document").ready(function(){
+            $( "#select_date" ).datepicker();
+            $("#create_new_day").datepicker();
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            let mm = today.getMonth() + 1; // Months start at 0!
+            let dd = today.getDate();
+            if (dd < 10) dd = '0' + dd;
+            if (mm < 10) mm = '0' + mm;
+            const formattedToday = dd + '/' + mm + '/' + yyyy;
+            $( "#select_date" ).val(formattedToday);
+            $("#create_new_day").val(formattedToday);
+           $('#uploader_roaster').change(function(){
+                filename=$('#uploader_roaster').prop('files')[0]['name'];
+                var file = $('#uploader_roaster').prop('files')[0];
+                var csrf_token = "{{ csrf_token }}";
+                var fd = new FormData();
+                fd.append('docs',file)
+                $.ajax({
+                    url : '/upload_roaster/',
+                    csrfmiddlewaretoken : csrf_token,
+                    type : 'POST',
+                    data : fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        data=JSON.parse(data);
+                        if (data['columns'] === 'Error')
+                        {
+                            // img_content='Upload Error';
+                            // content=filename+' Uploaded Successfully';
+                            content='File Upload Error';;
+                            $('#img').html("<i class='fas fa-exclamation-circle' style='font-size:23px;color:red'>");
+                            // $('#img').css({'background-color': '#eee'});
+                            $('#desc').text(content);
+                            var x = document.getElementById("toast");
+                            x.className = "show";
+                            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+                        }
+                        else{
+                            alert(data['columns']);
+                            img_content='Upload';
+                            // content=filename+' Uploaded Successfully';
+                            content='File Uploaded Successfully';
+                            $('#img').text(img_content);
+                            $('#desc').text(content);
+                            var x = document.getElementById("toast")
+                            x.className = "show";
+                            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);    
+                        }
+                        
+                    },
+                    failure: function(data) {
+                        img_content='Upload';
+                        // content=filename+' Uploaded Successfully';
+                        content='Error while uploding '+filename+' file';
+                        $('#img').text(img_content);
+                        $('#desc').text(content);
+                        var x = document.getElementById("toast");
+                        x.className = "show";
+                        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+                    }
+                });
+                
+           }); 
+        });
+    </script>
+</body>
+
+</html>

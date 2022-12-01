@@ -1,0 +1,1419 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2022 - 08:58:20
+Django version 3.2.12, using settings 'Walmart.settings'
+Starting development server at http://0:8087/
+Quit the server with CONTROL-C.
+[25/Nov/2022 08:58:32] "GET / HTTP/1.1" 200 3320
+Not Found: /favicon.ico
+[25/Nov/2022 08:58:32] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 08:58:38] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 08:58:38] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 08:58:38] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 08:58:39] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 08:58:39] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 08:58:39] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 08:58:39] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 08:58:39] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 08:58:39] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 08:58:39] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 08:58:39] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 08:58:39] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 08:58:39] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 08:58:40] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 08:58:40] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 08:58:40] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 08:58:40] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 08:58:40] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 08:58:40] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 08:58:41] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 08:58:41] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[25/Nov/2022 08:58:54] "GET /static/download_template/Digital%20Grade%20Book%20Roster%20V2%20Template.xlsx HTTP/1.1" 200 26998
+Not Found: /favicon.ico
+[25/Nov/2022 09:05:44] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 09:05:48] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:48] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 09:05:48] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 09:05:48] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 09:05:48] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 09:05:48] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 09:05:48] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 09:05:49] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:49] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 09:05:49] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 09:05:49] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 09:05:49] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:49] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 09:05:49] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:49] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:50] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 09:05:50] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:50] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 09:05:50] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 09:05:50] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:50] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 09:05:50] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:50] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 09:05:50] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:50] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 09:05:50] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:50] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:05:50] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 09:05:51] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 09:05:51] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 09:05:51] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 09:05:51] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 09:05:51] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 09:05:51] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 09:05:51] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 09:05:51] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 09:05:51] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 09:05:51] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 09:05:51] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 09:05:51] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 09:05:52] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 09:05:52] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 09:05:52] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 09:05:52] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 09:05:52] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 09:05:52] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 09:05:53] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 09:05:53] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+Not Found: /favicon.ico
+[25/Nov/2022 09:05:54] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 09:05:56] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:12:25] "GET / HTTP/1.1" 200 3320
+[25/Nov/2022 09:12:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[25/Nov/2022 09:12:25] "GET /static/css/login.css HTTP/1.1" 200 4898
+[25/Nov/2022 09:12:26] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[25/Nov/2022 09:12:27] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[25/Nov/2022 09:12:36] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 09:12:45] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 09:12:46] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:12:46] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 09:12:47] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 09:12:47] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 09:12:47] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 09:12:47] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 09:12:47] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 09:12:48] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 09:12:48] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 09:12:48] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 09:12:48] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 09:12:48] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 09:12:48] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 09:12:48] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 09:12:49] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 09:12:49] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 09:12:50] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 09:12:50] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 09:12:51] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 09:12:52] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[25/Nov/2022 09:13:02] "GET /partner_grade_book/attendance HTTP/1.1" 200 33643
+[25/Nov/2022 09:13:12] "GET /partner_grade_book/attendance HTTP/1.1" 200 33643
+[25/Nov/2022 09:13:14] "GET /partner_grade_book/observation HTTP/1.1" 200 32511
+[25/Nov/2022 09:13:17] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46031
+[25/Nov/2022 09:13:21] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29363
+[25/Nov/2022 09:13:26] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:14:59] "GET / HTTP/1.1" 200 3320
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 09:15:04] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 09:15:05] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:58:12] "GET / HTTP/1.1" 200 3320
+[25/Nov/2022 09:58:12] "GET /static/css/login.css HTTP/1.1" 200 4898
+[25/Nov/2022 09:58:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[25/Nov/2022 09:58:13] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[25/Nov/2022 09:58:17] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[25/Nov/2022 09:58:18] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 09:58:29] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 09:58:30] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:58:30] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 09:58:30] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 09:58:30] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 09:58:30] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 09:58:30] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 09:58:31] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 09:58:31] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 09:58:31] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 09:58:31] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 09:58:31] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 09:58:32] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 09:58:32] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 09:58:32] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 09:58:32] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 09:58:32] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 09:58:32] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 09:58:32] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 09:58:33] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[25/Nov/2022 09:58:43] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:58:48] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 09:58:53] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 10:15:08] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 10:15:08] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:15:08] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:15:08] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:15:08] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:15:08] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:15:08] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:15:09] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:15:09] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:15:09] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:15:09] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:15:09] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:15:09] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:15:09] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:15:09] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:15:09] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:15:10] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:15:10] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 10:15:10] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:15:11] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+Not Found: /favicon.ico
+[25/Nov/2022 10:15:11] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 10:15:50] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[25/Nov/2022 10:15:50] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 10:15:51] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[25/Nov/2022 10:19:43] "GET /admin HTTP/1.1" 301 0
+[25/Nov/2022 10:19:44] "GET /admin/ HTTP/1.1" 200 4252
+[25/Nov/2022 10:19:44] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[25/Nov/2022 10:19:44] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[25/Nov/2022 10:19:44] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[25/Nov/2022 10:19:44] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[25/Nov/2022 10:19:45] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[25/Nov/2022 10:19:45] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[25/Nov/2022 10:19:45] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[25/Nov/2022 10:19:45] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[25/Nov/2022 10:19:45] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[25/Nov/2022 10:19:45] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[25/Nov/2022 10:19:45] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[25/Nov/2022 10:19:50] "GET /admin/auth/user/ HTTP/1.1" 200 8630
+[25/Nov/2022 10:19:50] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[25/Nov/2022 10:19:50] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[25/Nov/2022 10:19:50] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[25/Nov/2022 10:19:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[25/Nov/2022 10:19:50] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[25/Nov/2022 10:19:51] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[25/Nov/2022 10:19:51] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[25/Nov/2022 10:19:51] "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[25/Nov/2022 10:19:51] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[25/Nov/2022 10:19:51] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[25/Nov/2022 10:19:51] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[25/Nov/2022 10:19:52] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[25/Nov/2022 10:19:52] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[25/Nov/2022 10:19:52] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[25/Nov/2022 10:19:52] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[25/Nov/2022 10:20:00] "GET /admin/auth/user/add/ HTTP/1.1" 200 6875
+[25/Nov/2022 10:20:01] "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[25/Nov/2022 10:20:01] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[25/Nov/2022 10:20:01] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[25/Nov/2022 10:20:01] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[25/Nov/2022 10:20:01] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[25/Nov/2022 10:20:22] "GET /admin/auth/user/ HTTP/1.1" 200 8630
+[25/Nov/2022 10:20:26] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 15098
+[25/Nov/2022 10:20:26] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[25/Nov/2022 10:20:26] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[25/Nov/2022 10:20:26] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[25/Nov/2022 10:20:26] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+[25/Nov/2022 10:20:26] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+[25/Nov/2022 10:20:27] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[25/Nov/2022 10:20:27] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[25/Nov/2022 10:20:27] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[25/Nov/2022 10:20:27] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[25/Nov/2022 10:20:27] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[25/Nov/2022 10:20:54] "GET /admin/auth/user/ HTTP/1.1" 200 8630
+[25/Nov/2022 10:21:13] "GET /admin/auth/user/add/ HTTP/1.1" 200 6875
+[25/Nov/2022 10:21:13] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[25/Nov/2022 10:21:45] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[25/Nov/2022 10:21:46] "GET /admin/auth/user/4/change/ HTTP/1.1" 200 15319
+[25/Nov/2022 10:21:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+/home/Ubuntu/wal/Grade_Book/Partner_Grade_Book_amar/partner_grade_book/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2022 - 10:27:52
+Django version 3.2.12, using settings 'Walmart.settings'
+Starting development server at http://0:8087/
+Quit the server with CONTROL-C.
+/home/Ubuntu/wal/Grade_Book/Partner_Grade_Book_amar/partner_grade_book/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2022 - 10:30:06
+Django version 3.2.12, using settings 'Walmart.settings'
+Starting development server at http://0:8087/
+Quit the server with CONTROL-C.
+/home/Ubuntu/wal/Grade_Book/Partner_Grade_Book_amar/partner_grade_book/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 25, 2022 - 10:33:27
+Django version 3.2.12, using settings 'Walmart.settings'
+Starting development server at http://0:8087/
+Quit the server with CONTROL-C.
+[25/Nov/2022 10:41:11] "GET / HTTP/1.1" 200 3320
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 10:41:15] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 10:41:16] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 10:45:44] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 10:45:45] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:45:45] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:45:45] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:45:45] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:45:45] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:45:45] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:45:45] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:45:45] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:45:45] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:45:46] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:45:46] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:45:46] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:45:46] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:45:46] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:45:46] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:45:46] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:45:46] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 10:45:47] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:45:47] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+Not Found: /favicon.ico
+[25/Nov/2022 10:45:48] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 10:45:50] "GET /partner_grade_book/home HTTP/1.1" 200 29880
+[25/Nov/2022 10:45:50] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:45:50] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:45:50] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:45:50] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:45:50] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:45:50] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:45:50] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:45:50] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:45:50] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:45:51] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:45:51] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:45:51] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:45:51] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:45:51] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:45:51] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:45:51] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:45:51] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 10:45:52] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:45:52] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+Not Found: /favicon.ico
+[25/Nov/2022 10:45:52] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 10:46:41] "GET /partner_grade_book/home HTTP/1.1" 200 29883
+[25/Nov/2022 10:46:41] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:46:41] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:46:41] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:46:41] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:46:41] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:46:41] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:46:41] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:46:41] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:46:41] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:46:41] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:46:42] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:46:42] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:46:42] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:46:42] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:46:42] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:46:42] "GET /static/images/faces/face8.jpg HTTP/1.1" 200 3226
+[25/Nov/2022 10:46:42] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[25/Nov/2022 10:46:42] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:46:43] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:46:43] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+Not Found: /favicon.ico
+[25/Nov/2022 10:46:43] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 10:46:50] "GET /partner_grade_book/attendance HTTP/1.1" 200 33646
+[25/Nov/2022 10:46:52] "GET /partner_grade_book/home HTTP/1.1" 200 29883
+[25/Nov/2022 10:46:57] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[25/Nov/2022 10:46:57] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 10:46:58] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[25/Nov/2022 10:47:52] "GET /partner_grade_book/home HTTP/1.1" 200 29879
+[25/Nov/2022 10:47:52] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:47:52] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:47:52] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:47:53] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:47:53] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:47:53] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:47:53] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[25/Nov/2022 10:47:53] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:47:53] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:47:53] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:47:53] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:47:54] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:47:54] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:47:54] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:47:54] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:47:54] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:47:54] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:47:55] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[25/Nov/2022 10:47:55] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:47:55] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[25/Nov/2022 10:47:55] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 10:47:56] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+Not Found: /favicon.ico
+[25/Nov/2022 10:47:56] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 10:48:09] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[25/Nov/2022 10:48:09] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 10:48:10] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[25/Nov/2022 10:49:13] "GET /partner_grade_book/home HTTP/1.1" 200 29879
+[25/Nov/2022 10:49:14] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:49:14] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:49:14] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:49:14] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:49:14] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:49:14] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:49:14] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:49:14] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:49:14] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[25/Nov/2022 10:49:15] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:49:15] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:49:15] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:49:15] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:49:15] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:49:15] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:49:15] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:49:15] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[25/Nov/2022 10:49:15] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 10:49:15] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:49:15] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:49:16] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+Not Found: /favicon.ico
+[25/Nov/2022 10:49:16] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 10:49:16] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[25/Nov/2022 10:49:30] "GET /partner_grade_book/home HTTP/1.1" 200 29901
+[25/Nov/2022 10:49:31] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:49:31] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:49:31] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:49:31] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:49:31] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:49:31] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:49:31] "GET /static/vendors/feather/fonts/feather-webfont.woff HTTP/1.1" 200 12936
+[25/Nov/2022 10:49:31] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:49:31] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:49:31] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[25/Nov/2022 10:49:31] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:49:32] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:49:32] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:49:32] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:49:32] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:49:32] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:49:32] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[25/Nov/2022 10:49:32] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 10:49:32] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:49:32] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:49:32] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:49:33] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+Not Found: /favicon.ico
+[25/Nov/2022 10:49:33] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 10:49:34] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[25/Nov/2022 10:51:10] "GET /partner_grade_book/home HTTP/1.1" 200 29901
+[25/Nov/2022 10:51:10] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[25/Nov/2022 10:51:10] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[25/Nov/2022 10:51:10] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[25/Nov/2022 10:51:10] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[25/Nov/2022 10:51:10] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[25/Nov/2022 10:51:10] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[25/Nov/2022 10:51:10] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[25/Nov/2022 10:51:10] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[25/Nov/2022 10:51:10] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[25/Nov/2022 10:51:11] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[25/Nov/2022 10:51:11] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[25/Nov/2022 10:51:11] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[25/Nov/2022 10:51:11] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[25/Nov/2022 10:51:11] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[25/Nov/2022 10:51:11] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[25/Nov/2022 10:51:11] "GET /static/js/template.js HTTP/1.1" 200 5339
+[25/Nov/2022 10:51:11] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[25/Nov/2022 10:51:12] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[25/Nov/2022 10:51:12] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 10:51:12] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[25/Nov/2022 10:51:12] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[25/Nov/2022 10:51:12] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+Not Found: /favicon.ico
+[25/Nov/2022 10:51:13] "GET /favicon.ico HTTP/1.1" 404 3365
+[25/Nov/2022 12:45:23] code 400, message Bad request syntax ('\x00\x00\x00\x02\x01\x00')
+[25/Nov/2022 12:45:23] "    " 400 -
+[25/Nov/2022 12:57:08] "GET / HTTP/1.1" 200 3320
+Not Found: /favicon.ico
+[25/Nov/2022 12:57:10] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 12:57:21] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 12:57:21] "GET /partner_grade_book/home HTTP/1.1" 200 29901
+[25/Nov/2022 12:57:21] "GET /static/images/Walmart_logo.png HTTP/1.1" 304 0
+[25/Nov/2022 12:57:22] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 304 0
+[25/Nov/2022 12:57:22] "GET /static/images/LD_Logo.jpg HTTP/1.1" 304 0
+[25/Nov/2022 12:58:48] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[25/Nov/2022 12:58:48] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[25/Nov/2022 12:58:51] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[25/Nov/2022 13:15:13,711] - Broken pipe from ('162.142.125.221', 38678)
+
+[25/Nov/2022 13:15:13] code 400, message Bad request version ('À\x14À')
+[25/Nov/2022 13:15:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[25/Nov/2022 13:15:15] "GET / HTTP/1.1" 200 3320
+[25/Nov/2022 13:15:15,409] - Broken pipe from ('162.142.125.221', 46006)
+
+[25/Nov/2022 13:15:15] "GET / HTTP/1.1" 200 3320
+[25/Nov/2022 13:15:15] code 505, message Invalid HTTP version (2.0)
+[25/Nov/2022 13:15:15] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[25/Nov/2022 13:15:15] "GET /favicon.ico HTTP/1.1" 404 3359
+[25/Nov/2022 13:42:11] "GET / HTTP/1.1" 200 3320
+Not Found: /favicon.ico
+[25/Nov/2022 13:42:12] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 13:42:19] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 13:42:19] "GET /partner_grade_book/home HTTP/1.1" 200 29901
+[25/Nov/2022 13:42:20] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 304 0
+[25/Nov/2022 13:42:20] "GET /static/images/LD_Logo.jpg HTTP/1.1" 304 0
+[25/Nov/2022 13:44:40] "GET /partner_grade_book/attendance HTTP/1.1" 200 33665
+[25/Nov/2022 13:45:13] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46053
+[25/Nov/2022 13:45:15] "GET /partner_grade_book/observation HTTP/1.1" 200 32533
+[25/Nov/2022 13:45:41] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46053
+[25/Nov/2022 14:00:07] "GET /logout/ HTTP/1.1" 302 0
+[25/Nov/2022 14:00:08] "GET / HTTP/1.1" 200 3320
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[25/Nov/2022 14:00:14] "POST / HTTP/1.1" 302 0
+[25/Nov/2022 14:00:15] "GET /partner_grade_book/home HTTP/1.1" 200 29901
+[25/Nov/2022 14:00:24] "GET /logout/ HTTP/1.1" 302 0
+[25/Nov/2022 14:00:25] "GET / HTTP/1.1" 200 3320
+[25/Nov/2022 22:57:20] "GET / HTTP/1.1" 200 3320
+Not Found: /favicon.ico
+[25/Nov/2022 22:57:21] "GET /favicon.ico HTTP/1.1" 404 3359
+[25/Nov/2022 22:57:23] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+[25/Nov/2022 22:57:23] "   " 400 -
+[26/Nov/2022 05:06:21,476] - Broken pipe from ('162.142.125.9', 47030)
+
+[26/Nov/2022 05:06:21] code 400, message Bad request version ('À\x14À')
+[26/Nov/2022 05:06:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[26/Nov/2022 05:06:22] "GET / HTTP/1.1" 200 3320
+[26/Nov/2022 05:06:22,579] - Broken pipe from ('162.142.125.9', 47448)
+
+[26/Nov/2022 05:06:22] "GET / HTTP/1.1" 200 3320
+[26/Nov/2022 05:06:22] code 505, message Invalid HTTP version (2.0)
+[26/Nov/2022 05:06:22] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[26/Nov/2022 05:06:22] "GET /favicon.ico HTTP/1.1" 404 3359
+[26/Nov/2022 13:19:32] code 400, message Bad request syntax ('\x00\x00\x00\x02\x01\x00')
+[26/Nov/2022 13:19:32] "    " 400 -
+[26/Nov/2022 14:33:31] "GET / HTTP/1.1" 200 3320
+[27/Nov/2022 01:52:02] code 400, message Bad request syntax ('MGLNDD_52.165.83.216_8087')
+[27/Nov/2022 01:52:02] "MGLNDD_52.165.83.216_8087" 400 -
+[27/Nov/2022 03:11:21] "GET / HTTP/1.1" 200 3320
+[27/Nov/2022 10:19:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Nov/2022 10:19:24] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Nov/2022 11:30:13,219] - Broken pipe from ('162.142.125.9', 57946)
+
+[27/Nov/2022 11:30:13] code 400, message Bad request version ('À\x14À')
+[27/Nov/2022 11:30:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Nov/2022 11:30:14] "GET / HTTP/1.1" 200 3320
+[27/Nov/2022 11:30:14,327] - Broken pipe from ('162.142.125.9', 60122)
+
+[27/Nov/2022 11:30:14] "GET / HTTP/1.1" 200 3320
+[27/Nov/2022 11:30:14] code 505, message Invalid HTTP version (2.0)
+[27/Nov/2022 11:30:14] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[27/Nov/2022 11:30:14] "GET /favicon.ico HTTP/1.1" 404 3359
+[27/Nov/2022 20:28:13,658] - Broken pipe from ('167.248.133.120', 33464)
+
+[27/Nov/2022 20:28:13] code 400, message Bad request version ('À\x14À')
+[27/Nov/2022 20:28:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Nov/2022 20:28:14] "GET / HTTP/1.1" 200 3320
+[27/Nov/2022 20:28:14,747] - Broken pipe from ('167.248.133.120', 54876)
+
+[27/Nov/2022 20:28:14] "GET / HTTP/1.1" 200 3320
+[27/Nov/2022 20:28:14] code 505, message Invalid HTTP version (2.0)
+[27/Nov/2022 20:28:14] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[27/Nov/2022 20:28:14] "GET /favicon.ico HTTP/1.1" 404 3359
+[27/Nov/2022 22:55:00] code 400, message Bad request syntax ('\x00\x00\x00\x02\x01\x00')
+[27/Nov/2022 22:55:00] "    " 400 -
+[28/Nov/2022 06:17:47] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 06:17:47] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 06:17:48] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 06:17:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 06:17:50] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 06:17:51] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 06:17:57] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 06:17:58] "GET /partner_grade_book/home HTTP/1.1" 200 29901
+[28/Nov/2022 06:18:00] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 06:18:00] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 06:18:00] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 06:18:00] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 06:18:01] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 06:18:01] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 06:18:02] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 06:18:02] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 06:18:02] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 06:18:02] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 06:18:02] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[28/Nov/2022 06:18:02] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 06:18:02] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 06:18:02] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 06:18:03] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 06:18:03] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 06:18:03] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 06:18:03] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[28/Nov/2022 06:18:03] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 06:18:03] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 06:18:04] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 06:18:04] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 06:18:04] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 06:18:04] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 06:18:04] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 06:18:04] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 06:18:05] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 06:18:06] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 06:18:09] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 06:20:50] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 07:46:57] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 07:47:17] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 07:47:18] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 07:47:18] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 07:47:18] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 07:47:19] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 07:47:20] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 07:47:24] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 07:47:24] "GET /partner_grade_book/home HTTP/1.1" 200 29901
+[28/Nov/2022 07:47:25] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 07:47:25] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 07:47:25] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 07:47:25] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 07:47:25] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 07:47:25] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 07:47:25] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 07:47:25] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 07:47:25] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 07:47:25] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 07:47:26] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 07:47:26] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 07:47:26] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 07:47:26] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 07:47:26] "GET /static/images/Walmart_mini_log.svg HTTP/1.1" 200 2286
+[28/Nov/2022 07:47:26] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[28/Nov/2022 07:47:26] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 07:47:27] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 07:47:27] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 07:47:32] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 07:47:32] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 07:47:33] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 07:54:37] "GET /partner_grade_book/home HTTP/1.1" 302 0
+[28/Nov/2022 07:54:38] "GET /logout/?next=/partner_grade_book/home HTTP/1.1" 302 0
+[28/Nov/2022 07:54:38] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 07:54:39] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 07:54:39] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 07:54:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 07:54:40] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1844
+[28/Nov/2022 07:54:40] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 07:54:41] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 07:54:46] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 07:54:46] "GET /partner_grade_book/home HTTP/1.1" 200 29910
+[28/Nov/2022 07:54:47] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 07:54:47] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 07:54:47] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 07:55:54] "GET /partner_grade_book/home HTTP/1.1" 200 29910
+[28/Nov/2022 07:55:54] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 07:55:55] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 07:55:55] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 07:55:55] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 07:55:55] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 07:55:55] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 07:55:55] "GET /static/vendors/feather/fonts/feather-webfont.woff HTTP/1.1" 200 12936
+[28/Nov/2022 07:55:55] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 07:55:55] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 07:55:55] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 07:55:55] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 07:55:56] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 07:55:56] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 07:55:56] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 07:55:56] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[28/Nov/2022 07:55:56] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 07:55:56] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 07:55:56] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 07:55:56] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 07:55:56] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 07:55:57] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 07:55:57] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+Not Found: /favicon.ico
+[28/Nov/2022 07:55:57] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 07:56:37] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 07:56:38] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 07:56:38] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 07:56:38] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 07:56:38] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 07:56:38] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 07:56:38] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 07:56:38] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 07:56:38] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920353
+[28/Nov/2022 07:56:38] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 07:56:38] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 07:56:38] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 07:56:39] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 07:56:39] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 07:56:39] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 07:56:39] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 07:56:39] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 07:56:39] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 07:56:39] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 07:56:39] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 07:56:40] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+Not Found: /favicon.ico
+[28/Nov/2022 07:56:40] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 07:56:40] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 07:58:18] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 07:58:19] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 07:58:19] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 07:58:19] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 07:58:19] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 07:58:19] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 07:58:19] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 07:58:19] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 07:58:19] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 07:58:19] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 07:58:20] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 07:58:20] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 07:58:20] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 07:58:20] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 07:58:20] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 07:58:20] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[28/Nov/2022 07:58:20] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 07:58:20] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 07:58:20] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 07:58:20] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 07:58:21] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 07:58:21] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+Not Found: /favicon.ico
+[28/Nov/2022 07:58:21] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 07:58:27] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 07:58:27] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 07:58:27] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 07:58:27] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 07:58:27] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 07:58:27] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 07:58:27] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 07:58:28] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[28/Nov/2022 07:58:28] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 07:58:28] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 07:58:28] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 07:58:28] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 07:58:28] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 07:58:28] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 07:58:28] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 07:58:28] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 07:58:29] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 07:58:29] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 07:58:29] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 07:58:29] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 07:58:29] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+Not Found: /favicon.ico
+[28/Nov/2022 07:58:30] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 07:58:30] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:13] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 08:01:13] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 08:01:13] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 08:01:13] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 08:01:13] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 08:01:13] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 08:01:13] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 08:01:14] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 08:01:14] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 08:01:14] "GET /static/vendors/feather/fonts/feather-webfont.woff HTTP/1.1" 200 12936
+[28/Nov/2022 08:01:14] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 08:01:14] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 08:01:14] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 08:01:14] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 08:01:14] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 08:01:15] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[28/Nov/2022 08:01:15] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:15] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 08:01:15] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 08:01:15] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 08:01:15] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 08:01:15] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+Not Found: /favicon.ico
+[28/Nov/2022 08:01:16] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 08:01:16] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:19] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 08:01:19] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:19] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:20] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:21] "GET /partner_grade_book/attendance HTTP/1.1" 200 33687
+[28/Nov/2022 08:01:21] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:21] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:22] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:23] "GET /partner_grade_book/observation HTTP/1.1" 200 32555
+[28/Nov/2022 08:01:23] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:23] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:24] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:25] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46075
+[28/Nov/2022 08:01:25] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:25] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:27] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:27] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29407
+[28/Nov/2022 08:01:27] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:27] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:28] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:28] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46075
+[28/Nov/2022 08:01:29] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:29] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:29] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:46] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46075
+[28/Nov/2022 08:01:47] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:47] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:48] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:48] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29407
+[28/Nov/2022 08:01:49] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:49] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 08:01:49] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:50] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46075
+[28/Nov/2022 08:01:50] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 08:01:50] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 08:01:51] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 10:55:31,911] - Broken pipe from ('162.142.125.210', 35760)
+
+[28/Nov/2022 10:55:31] code 400, message Bad request version ('À\x14À')
+[28/Nov/2022 10:55:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Nov/2022 10:55:32] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 10:55:33,012] - Broken pipe from ('162.142.125.210', 37480)
+
+[28/Nov/2022 10:55:33] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 10:55:33] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 10:55:33] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[28/Nov/2022 10:55:33] "GET /favicon.ico HTTP/1.1" 404 3359
+[28/Nov/2022 13:12:18] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 13:12:18] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 13:12:19] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 13:12:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 13:12:21] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 13:12:23] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/Ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/Ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/Ubuntu/wal/Grade_Book/Partner_Grade_Book_amar/partner_grade_book/views.py", line 126, in loginPage
+    print(user.get_username())
+AttributeError: 'NoneType' object has no attribute 'get_username'
+[28/Nov/2022 13:12:26] "POST / HTTP/1.1" 500 61079
+[28/Nov/2022 13:12:29] "GET / HTTP/1.1" 200 3320
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 13:12:33] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 13:12:34] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 13:12:35] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 13:12:35] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 13:12:35] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 13:12:35] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 13:12:35] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 13:12:35] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 13:12:36] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 13:12:36] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 13:12:36] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 13:12:36] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 13:12:36] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 13:12:37] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 13:12:37] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 13:12:37] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[28/Nov/2022 13:12:37] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 13:12:37] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 13:12:37] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 13:12:37] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 13:13:57] "GET /partner_grade_book/attendance HTTP/1.1" 200 33687
+[28/Nov/2022 13:14:02] "GET /partner_grade_book/observation HTTP/1.1" 200 32555
+[28/Nov/2022 13:14:05] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46075
+[28/Nov/2022 13:14:12] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29407
+[28/Nov/2022 13:14:31] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 14:43:35] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 14:43:35] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 14:43:36] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 14:43:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 14:43:41] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 14:43:41] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 14:43:48] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 14:43:48] "GET /partner_grade_book/home HTTP/1.1" 200 29923
+[28/Nov/2022 14:43:49] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 14:43:49] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 14:43:49] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 14:43:49] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 14:43:49] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 14:43:49] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 14:43:50] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 14:43:50] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 14:43:50] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 14:43:51] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[28/Nov/2022 14:43:51] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 14:43:51] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 14:43:51] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 14:43:51] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 14:43:52] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 14:43:52] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 14:43:53] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 14:43:53] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 14:45:23] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 14:45:42] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[28/Nov/2022 14:45:42] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[28/Nov/2022 14:45:44] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[28/Nov/2022 14:49:59] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 14:50:05] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 14:50:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 14:50:06] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 14:50:06] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 14:51:02] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 14:51:09] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 14:51:48] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 14:51:49] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 14:51:49] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 14:51:49] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 14:52:25] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 14:52:31] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 14:52:44] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 14:52:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 14:52:44] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 14:52:45] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 14:53:30] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[28/Nov/2022 14:53:33] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 14:53:38] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 14:53:38] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 14:53:38] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 14:53:39] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 14:53:39] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 14:53:39] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 14:53:39] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 14:53:40] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 14:53:40] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 14:53:40] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 14:53:40] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 14:53:41] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 14:53:41] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 14:53:41] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 14:53:41] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 14:53:42] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 14:53:42] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 14:53:57] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 14:54:01] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 14:54:06] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[28/Nov/2022 15:35:04] "GET / HTTP/1.1" 200 3320
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 15:35:09] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 15:35:10] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 15:56:32] "GET /admin HTTP/1.1" 301 0
+[28/Nov/2022 15:56:33] "GET /admin/ HTTP/1.1" 200 4550
+[28/Nov/2022 15:56:33] "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[28/Nov/2022 15:56:33] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[28/Nov/2022 15:56:33] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[28/Nov/2022 15:56:33] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[28/Nov/2022 15:56:33] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[28/Nov/2022 15:56:34] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[28/Nov/2022 15:56:34] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[28/Nov/2022 15:56:34] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[28/Nov/2022 15:56:34] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[28/Nov/2022 15:56:34] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[28/Nov/2022 15:56:34] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[28/Nov/2022 15:56:37] "GET /admin/auth/user/ HTTP/1.1" 200 9034
+[28/Nov/2022 15:56:37] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+[28/Nov/2022 15:56:37] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[28/Nov/2022 15:56:37] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[28/Nov/2022 15:56:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[28/Nov/2022 15:56:37] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+[28/Nov/2022 15:56:37] "GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+[28/Nov/2022 15:56:37] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[28/Nov/2022 15:56:37] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[28/Nov/2022 15:56:38] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+[28/Nov/2022 15:56:38] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[28/Nov/2022 15:56:38] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[28/Nov/2022 15:56:39] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[28/Nov/2022 15:56:39] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[28/Nov/2022 15:56:39] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[28/Nov/2022 15:56:39] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[28/Nov/2022 15:56:41] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 15046
+[28/Nov/2022 15:56:41] "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+[28/Nov/2022 15:56:41] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[28/Nov/2022 15:56:41] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+[28/Nov/2022 15:56:41] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4360
+[28/Nov/2022 15:56:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[28/Nov/2022 15:56:41] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12350
+[28/Nov/2022 15:56:42] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+[28/Nov/2022 15:56:42] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+[28/Nov/2022 15:56:42] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[28/Nov/2022 15:56:43] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[28/Nov/2022 15:56:43] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[28/Nov/2022 15:56:43] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[28/Nov/2022 15:56:43] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[28/Nov/2022 15:56:43] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[28/Nov/2022 15:57:09] "GET /admin/auth/user/ HTTP/1.1" 200 9034
+[28/Nov/2022 15:57:09] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[28/Nov/2022 15:57:23] "GET /admin/auth/user/?is_superuser__exact=1 HTTP/1.1" 200 8938
+[28/Nov/2022 15:57:24] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[28/Nov/2022 16:00:34] "GET /admin/auth/user/1/change/?_changelist_filters=is_superuser__exact%3D1 HTTP/1.1" 200 15188
+[28/Nov/2022 16:00:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+[28/Nov/2022 16:47:45] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[28/Nov/2022 16:47:45] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 304 0
+[28/Nov/2022 16:47:54] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 16:48:02] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 17:06:34] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 17:06:35] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[28/Nov/2022 17:06:35] "GET /favicon.ico HTTP/1.1" 404 3365
+[28/Nov/2022 17:06:39] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[28/Nov/2022 18:18:38] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 18:18:38] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 18:18:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 18:18:38] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 18:18:39] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+[28/Nov/2022 19:21:23] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 19:21:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 19:21:24] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 19:21:24] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 19:21:27] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[28/Nov/2022 19:21:51] "POST / HTTP/1.1" 302 0
+[28/Nov/2022 19:21:51] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 19:21:52] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[28/Nov/2022 19:21:52] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[28/Nov/2022 19:21:52] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[28/Nov/2022 19:21:52] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[28/Nov/2022 19:21:52] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[28/Nov/2022 19:21:52] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[28/Nov/2022 19:21:52] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[28/Nov/2022 19:21:52] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[28/Nov/2022 19:21:52] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[28/Nov/2022 19:21:53] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[28/Nov/2022 19:21:53] "GET /static/js/template.js HTTP/1.1" 200 5339
+[28/Nov/2022 19:21:53] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[28/Nov/2022 19:21:53] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[28/Nov/2022 19:21:53] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[28/Nov/2022 19:21:53] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[28/Nov/2022 19:21:53] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[28/Nov/2022 19:21:55] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[28/Nov/2022 19:21:56] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[28/Nov/2022 19:21:58] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 19:21:59] "GET /static/css/login.css HTTP/1.1" 200 4898
+[28/Nov/2022 19:21:59] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[28/Nov/2022 19:22:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[28/Nov/2022 19:22:12] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+[28/Nov/2022 19:23:56] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[28/Nov/2022 19:24:02] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[28/Nov/2022 19:24:06] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46080
+[28/Nov/2022 19:24:16] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[28/Nov/2022 19:24:21] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 19:24:40] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[28/Nov/2022 19:24:43] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[28/Nov/2022 19:24:46] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46080
+[28/Nov/2022 19:24:50] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[28/Nov/2022 19:24:54] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 19:25:31] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[28/Nov/2022 19:25:32] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[28/Nov/2022 19:25:34] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[28/Nov/2022 19:25:37] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 19:47:08,655] - Broken pipe from ('162.142.125.210', 35096)
+
+[28/Nov/2022 19:47:08] code 400, message Bad request version ('À\x14À')
+[28/Nov/2022 19:47:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[28/Nov/2022 19:47:10] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 19:47:10,105] - Broken pipe from ('162.142.125.210', 51080)
+
+[28/Nov/2022 19:47:10] "GET / HTTP/1.1" 200 3320
+[28/Nov/2022 19:47:10] code 505, message Invalid HTTP version (2.0)
+[28/Nov/2022 19:47:10] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[28/Nov/2022 19:47:10] "GET /favicon.ico HTTP/1.1" 404 3359
+[28/Nov/2022 20:45:40] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[28/Nov/2022 20:45:40] "GET /static/images/LD_Logo.jpg HTTP/1.1" 304 0
+[28/Nov/2022 20:45:40] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 304 0
+[28/Nov/2022 20:45:57] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[28/Nov/2022 20:46:01] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46080
+[28/Nov/2022 20:46:06] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[28/Nov/2022 20:46:11] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[28/Nov/2022 21:40:58] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[28/Nov/2022 21:41:02] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[29/Nov/2022 00:21:21] "GET / HTTP/1.0" 200 3320
+[29/Nov/2022 01:02:24] code 400, message Bad request syntax ('\x00\x00\x00\x02\x01\x00')
+[29/Nov/2022 01:02:24] "    " 400 -
+[29/Nov/2022 08:07:44] code 400, message Bad request syntax ('#ST')
+[29/Nov/2022 08:07:44] "#ST" 400 -
+[29/Nov/2022 08:07:45] code 400, message Bad request syntax ('\x00\x00\x00\x01\x07')
+[29/Nov/2022 08:07:45] "   " 400 -
+[29/Nov/2022 08:07:45,719] - Broken pipe from ('157.245.88.148', 39124)
+
+[29/Nov/2022 08:07:47] code 400, message Bad HTTP/0.9 request type ('\x00')
+[29/Nov/2022 08:07:47] " n    beio" 400 -
+[29/Nov/2022 08:07:47,263] - Broken pipe from ('157.245.88.148', 39130)
+
+[29/Nov/2022 08:07:48] code 400, message Bad request syntax ('\x00\x00\x07\x00\x08\x00\x03\x00\x04\x00\x05\x00\x06')
+[29/Nov/2022 08:07:48] "       " 400 -
+[29/Nov/2022 08:07:48,842] - Broken pipe from ('157.245.88.148', 39138)
+
+[29/Nov/2022 08:07:48] "GET / HTTP/1.0" 200 3320
+[29/Nov/2022 08:07:49] "OPTIONS / HTTP/1.0" 200 3320
+[29/Nov/2022 08:07:49] code 400, message Bad request version ('RTSP/1.0')
+[29/Nov/2022 08:07:49] "OPTIONS / RTSP/1.0" 400 -
+[29/Nov/2022 08:07:51] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[29/Nov/2022 08:07:51] "  (rþ          |                    " 400 -
+[29/Nov/2022 08:07:51,434] - Broken pipe from ('157.245.88.148', 39158)
+
+[29/Nov/2022 08:07:52] code 400, message Bad HTTP/0.9 request type ('\x00')
+[29/Nov/2022 08:07:52] "          versionbind   " 400 -
+[29/Nov/2022 08:07:52,972] - Broken pipe from ('157.245.88.148', 39166)
+
+[29/Nov/2022 08:07:54] code 400, message Bad HTTP/0.9 request type ('\x00')
+[29/Nov/2022 08:07:54] "            " 400 -
+[29/Nov/2022 08:07:54,512] - Broken pipe from ('157.245.88.148', 39174)
+
+[29/Nov/2022 08:07:54] code 400, message Bad request syntax ('HELP')
+[29/Nov/2022 08:07:54] "HELP" 400 -
+[29/Nov/2022 08:07:54] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[29/Nov/2022 08:07:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Nov/2022 08:07:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[29/Nov/2022 08:07:54] "  *%à     Cookie: mstshash=beio" 400 -
+[29/Nov/2022 08:07:54] code 400, message Bad request version ('\x00/\x00')
+[29/Nov/2022 08:07:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[29/Nov/2022 08:07:54] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[29/Nov/2022 08:07:54] "   qjn0k¡¢" 400 -
+[29/Nov/2022 08:07:56] code 400, message Bad request version ('0.12\x00')
+[29/Nov/2022 08:07:56] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[29/Nov/2022 08:07:56,619] - Broken pipe from ('157.245.88.148', 38676)
+
+[29/Nov/2022 08:07:58] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[29/Nov/2022 08:07:58] "l          " 400 -
+[29/Nov/2022 08:07:58,160] - Broken pipe from ('157.245.88.148', 38680)
+
+Not Found: /nice ports,/Trinity.txt.bak
+[29/Nov/2022 08:07:58] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 404 3405
+[29/Nov/2022 08:07:58] code 400, message Bad request syntax ('\x01default')
+[29/Nov/2022 08:07:58] "default" 400 -
+[29/Nov/2022 08:07:58] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[29/Nov/2022 08:07:58] "0   -c   $ " 400 -
+[29/Nov/2022 08:08:00] code 400, message Bad HTTP/0.9 request type ('0')
+[29/Nov/2022 08:08:00] "0`  " 400 -
+[29/Nov/2022 08:08:00,194] - Broken pipe from ('157.245.88.148', 38692)
+
+[29/Nov/2022 08:08:00] code 400, message Bad request version ('SIP/2.0')
+[29/Nov/2022 08:08:00] "OPTIONS sip:nm SIP/2.0" 400 -
+[29/Nov/2022 08:08:01] code 400, message Bad request syntax ('TNMP\x04\x00\x00\x00TNME\x00\x00\x04\x00')
+[29/Nov/2022 08:08:01] "TNMP   TNME   " 400 -
+[29/Nov/2022 08:08:01,888] - Broken pipe from ('157.245.88.148', 38700)
+
+[29/Nov/2022 08:08:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00')
+[29/Nov/2022 08:08:03] "  à     " 400 -
+[29/Nov/2022 08:08:03,429] - Broken pipe from ('157.245.88.148', 38704)
+
+[29/Nov/2022 08:08:04] code 400, message Bad request syntax ('DmdT\x00\x00\x00\x17\x00\x00\x00\x01\x00\x00\x00\x00\x11\x11\x00ÿ\x01ÿ\x13')
+[29/Nov/2022 08:08:04] "DmdT           ÿÿ" 400 -
+[29/Nov/2022 08:08:04,978] - Broken pipe from ('157.245.88.148', 34198)
+
+[29/Nov/2022 08:08:06] code 400, message Bad HTTP/0.9 request type (':\x00\x00\x00/\x00\x00\x00\x02\x00\x00@\x02\x0f\x00\x01\x00=\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00@')
+[29/Nov/2022 08:08:06] ":   /     @  =            /         @                 " 400 -
+[29/Nov/2022 08:08:06,519] - Broken pipe from ('157.245.88.148', 34200)
+
+[29/Nov/2022 08:08:08] code 400, message Bad request syntax ('JRMI\x00\x02K')
+[29/Nov/2022 08:08:08] "JRMI K" 400 -
+[29/Nov/2022 08:08:08,061] - Broken pipe from ('157.245.88.148', 34202)
+
+[29/Nov/2022 08:08:09] code 400, message Bad request version ('\x00{\x00\x00\x00\x00\x00A\x00A\x00\x00\x00-\x00\x00A\x00\x00\x00-\x00\x00\x00a\x00\x00-\x00A\x00A\x00\x00A\x00-\x00\x00\x00\x00\x00A\x00\x00A\x00A\x00\x00A\x00A\x00\x00}\x00\x00\x00àmß_')
+[29/Nov/2022 08:08:09] "  ýÎú°    MMS                    ðððð    N S P l a y e r / 9 .  .  . 9 8  ;   {     A A   -  A   -   a  - A A  A -     A  A A  A A  }   àmß_" 400 -
+[29/Nov/2022 08:08:09,603] - Broken pipe from ('157.245.88.148', 34204)
+
+[29/Nov/2022 08:08:11] code 400, message Bad HTTP/0.9 request type ('\x00Z\x00\x00\x01\x00\x00\x00\x016\x01,\x00\x00\x08\x00\x7fÿ\x7f\x08\x00\x00\x00\x01\x00')
+[29/Nov/2022 08:08:11] " Z     6,   ÿ      :               æ           (CONNECT_DATA=(COMMAND=version))" 400 -
+[29/Nov/2022 08:08:11,146] - Broken pipe from ('157.245.88.148', 34206)
+
+[29/Nov/2022 08:08:12] code 400, message Bad request version ('\x03\x00(\x00\x04ÿ\x08\x00\x01U\x00\x00\x00MSSQLServer\x00H\x0f\x00\x00')
+[29/Nov/2022 08:08:12] " 4            ( ÿ U   MSSQLServer H  " 400 -
+[29/Nov/2022 08:08:12,697] - Broken pipe from ('157.245.88.148', 34208)
+
+[29/Nov/2022 08:08:14] code 400, message Bad request syntax ('\x00\x03\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x00\x00\x00\x00\x0f\x00')
+[29/Nov/2022 08:08:14] "              " 400 -
+[29/Nov/2022 08:08:14,239] - Broken pipe from ('157.245.88.148', 34210)
+
+[29/Nov/2022 08:08:15] code 400, message Bad request syntax ('GIOP\x01\x00\x01\x00$\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x06\x00\x00\x00abcdef\x00\x00\x04\x00\x00\x00get\x00\x00\x00\x00\x00')
+[29/Nov/2022 08:08:15] "GIOP  $                abcdef     get     " 400 -
+[29/Nov/2022 08:08:15,777] - Broken pipe from ('157.245.88.148', 54102)
+
+[29/Nov/2022 08:08:17] code 400, message Bad request syntax ('\x00\x9c\x00\x01\x1a+<M\x00\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01ÿÿ\x00\x01none\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00beio\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[29/Nov/2022 08:08:17] "  +<M            ÿÿ none                                                            beio                                                            " 400 -
+[29/Nov/2022 08:08:18] code 400, message Bad request syntax ('\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x00')
+[29/Nov/2022 08:08:18] "                   " 400 -
+[29/Nov/2022 08:08:18,872] - Broken pipe from ('157.245.88.148', 54120)
+
+[29/Nov/2022 08:08:20] code 400, message Bad request syntax ('\x03\x81\x00\x00\x00\x00\x00_@\x00\x017\x00\x00\x00\x00\x00\x00\x00\x01\x00\x01\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe\x00SessionType=Discovery\x00AuthMethod=None\x00\x00')
+[29/Nov/2022 08:08:20] "     _@ 7                                InitiatorName=iqn.1991-05.com.microsoft:beio-iscsi-probe SessionType=Discovery AuthMethod=None  " 400 -
+[29/Nov/2022 08:08:20,411] - Broken pipe from ('157.245.88.148', 54128)
+
+[29/Nov/2022 08:08:21] code 400, message Bad request version ('CharruaVista')
+[29/Nov/2022 08:08:21] "    Í   ANY-SCP         FINDSCU                                           1.2.840.10008.3.1.1.1   .   0  1.2.840.10008.1.1@  1.2.840.10008.1.2P  :Q    @ R  1.2.826.0.1.3680043.2.1396.999U  CharruaVista" 400 -
+[29/Nov/2022 08:08:21,953] - Broken pipe from ('157.245.88.148', 54136)
+
+[29/Nov/2022 08:08:21] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'à\x00\x00\x00\x00\x00Cookie:")
+[29/Nov/2022 08:08:21] "  ,'à     Cookie: mstshash=Administrator" 400 -
+[29/Nov/2022 08:08:23] code 400, message Bad request syntax ('\x00\x00\x00\x00\x00')
+[29/Nov/2022 08:08:23] "     " 400 -
+[29/Nov/2022 08:08:23,589] - Broken pipe from ('157.245.88.148', 54148)
+
+[29/Nov/2022 08:08:23] code 400, message Bad request syntax ('\x01I20100')
+[29/Nov/2022 08:08:23] "I20100" 400 -
+[29/Nov/2022 10:10:58] "GET / HTTP/1.1" 200 3320
+[29/Nov/2022 12:45:14] code 400, message Bad request syntax ('MGLNDD_52.165.83.216_8087')
+[29/Nov/2022 12:45:14] "MGLNDD_52.165.83.216_8087" 400 -
+[29/Nov/2022 15:38:17] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 304 0
+[29/Nov/2022 15:38:17] "GET /static/vendors/feather/feather.css HTTP/1.1" 304 0
+[29/Nov/2022 15:38:17] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 304 0
+[29/Nov/2022 15:38:17] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 304 0
+[29/Nov/2022 15:38:17] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 304 0
+[29/Nov/2022 15:38:17] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/js/template.js HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/js/hoverable-collapse.js HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/js/off-canvas.js HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/js/settings.js HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/images/Walmart_logo.png HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/images/LD_Logo.jpg HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/js/todolist.js HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 304 0
+[29/Nov/2022 15:38:18] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[29/Nov/2022 15:38:19] "GET /favicon.ico HTTP/1.1" 404 3365
+[29/Nov/2022 17:02:25] "GET / HTTP/1.1" 200 3320
+[29/Nov/2022 17:02:26] "GET /static/css/login.css HTTP/1.1" 200 4898
+[29/Nov/2022 17:02:26] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[29/Nov/2022 17:02:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[29/Nov/2022 17:02:28] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+Not Found: /favicon.ico
+[29/Nov/2022 17:02:29] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[29/Nov/2022 17:02:34] "POST / HTTP/1.1" 302 0
+[29/Nov/2022 17:02:35] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[29/Nov/2022 17:02:35] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[29/Nov/2022 17:02:35] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[29/Nov/2022 17:02:35] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[29/Nov/2022 17:02:35] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[29/Nov/2022 17:02:35] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[29/Nov/2022 17:02:36] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[29/Nov/2022 17:02:36] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[29/Nov/2022 17:02:36] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[29/Nov/2022 17:02:36] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[29/Nov/2022 17:02:36] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[29/Nov/2022 17:02:36] "GET /static/js/template.js HTTP/1.1" 200 5339
+[29/Nov/2022 17:02:37] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[29/Nov/2022 17:02:37] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[29/Nov/2022 17:02:37] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[29/Nov/2022 17:02:37] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[29/Nov/2022 17:02:37] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[29/Nov/2022 17:02:38] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[29/Nov/2022 17:02:38] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[29/Nov/2022 17:02:59] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[29/Nov/2022 17:03:09] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[29/Nov/2022 17:03:13] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[29/Nov/2022 17:03:34] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[29/Nov/2022 17:05:40] "GET / HTTP/1.1" 200 3320
+[29/Nov/2022 17:05:40] "GET /static/css/login.css HTTP/1.1" 200 4898
+[29/Nov/2022 17:05:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[29/Nov/2022 17:05:42] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+[29/Nov/2022 17:05:51] "GET / HTTP/1.1" 200 3320
+[29/Nov/2022 17:06:07] "GET / HTTP/1.1" 200 3320
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[29/Nov/2022 17:07:52] "POST / HTTP/1.1" 302 0
+[29/Nov/2022 17:07:53] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[29/Nov/2022 17:07:53] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[29/Nov/2022 17:07:53] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[29/Nov/2022 17:07:53] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[29/Nov/2022 17:07:53] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[29/Nov/2022 17:07:53] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[29/Nov/2022 17:07:54] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[29/Nov/2022 17:07:54] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[29/Nov/2022 17:07:54] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[29/Nov/2022 17:07:54] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[29/Nov/2022 17:07:54] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[29/Nov/2022 17:07:54] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[29/Nov/2022 17:07:54] "GET /static/js/template.js HTTP/1.1" 200 5339
+[29/Nov/2022 17:07:54] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[29/Nov/2022 17:07:54] "GET /static/js/settings.js HTTP/1.1" 304 0
+[29/Nov/2022 17:07:55] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[29/Nov/2022 17:07:55] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[29/Nov/2022 17:07:55] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 304 0
+[29/Nov/2022 17:07:55] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 304 0
+[29/Nov/2022 17:08:26] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[29/Nov/2022 17:08:30] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[29/Nov/2022 17:25:23] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[29/Nov/2022 17:31:21] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46080
+[29/Nov/2022 17:31:46] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[29/Nov/2022 18:09:59] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[29/Nov/2022 18:10:05] "GET / HTTP/1.1" 200 3320
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[29/Nov/2022 18:10:37] "POST / HTTP/1.1" 302 0
+[29/Nov/2022 18:10:38] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[29/Nov/2022 18:30:21] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[29/Nov/2022 18:31:06] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[29/Nov/2022 18:32:39] "GET /partner_grade_book/system_tracker HTTP/1.1" 200 46080
+[29/Nov/2022 18:33:20] "GET /partner_grade_book/view_roster HTTP/1.1" 200 29412
+[30/Nov/2022 04:57:59,972] - Broken pipe from ('162.142.125.219', 60024)
+
+[30/Nov/2022 04:58:00] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Â\x993Í\x01}\x01öÄo^\x99\x9e/á\x10\x01¸Ã-¤JXî?')
+[30/Nov/2022 04:58:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[30/Nov/2022 04:58:01] "GET / HTTP/1.1" 200 3320
+[30/Nov/2022 04:58:01,079] - Broken pipe from ('162.142.125.219', 34782)
+
+[30/Nov/2022 04:58:01] "GET / HTTP/1.1" 200 3320
+[30/Nov/2022 04:58:01] code 505, message Invalid HTTP version (2.0)
+[30/Nov/2022 04:58:01] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[30/Nov/2022 04:58:01] "GET /favicon.ico HTTP/1.1" 404 3359
+[30/Nov/2022 05:11:04] "GET / HTTP/1.1" 200 3320
+Not Found: /favicon.ico
+[30/Nov/2022 05:11:04] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[30/Nov/2022 05:11:09] "POST / HTTP/1.1" 302 0
+[30/Nov/2022 05:11:10] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[30/Nov/2022 05:11:10] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 304 0
+[30/Nov/2022 05:11:10] "GET /static/images/Walmart_logo.png HTTP/1.1" 304 0
+[30/Nov/2022 05:11:11] "GET /static/images/LD_Logo.jpg HTTP/1.1" 304 0
+[30/Nov/2022 05:11:22] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[30/Nov/2022 05:12:21] "GET /partner_grade_book/observation HTTP/1.1" 200 32560
+[30/Nov/2022 05:12:35] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[30/Nov/2022 05:12:40] "GET /partner_grade_book/attendance HTTP/1.1" 200 33692
+[30/Nov/2022 05:18:53] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[30/Nov/2022 05:18:53] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[30/Nov/2022 05:18:54] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+[30/Nov/2022 05:30:08] "GET /static/vendors/mdi/css/materialdesignicons.css.map HTTP/1.1" 404 1898
+[30/Nov/2022 05:30:08] "GET /static/vendors/js/perfect-scrollbar.min.js.map HTTP/1.1" 404 1886
+[30/Nov/2022 05:30:09] "GET /static/css/maps/vertical-layout-light/style.css.map HTTP/1.1" 200 1524202
+Not Found: /favicon.ico
+[30/Nov/2022 05:37:27] "GET /favicon.ico HTTP/1.1" 404 3365
+[30/Nov/2022 08:24:01] "GET / HTTP/1.1" 200 3320
+Not Found: /favicon.ico
+[30/Nov/2022 08:24:02] "GET /favicon.ico HTTP/1.1" 404 3365
+********************************************************************************
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/Ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/Ubuntu/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/Ubuntu/wal/Grade_Book/Partner_Grade_Book_amar/partner_grade_book/views.py", line 126, in loginPage
+    print(user.get_username())
+AttributeError: 'NoneType' object has no attribute 'get_username'
+[30/Nov/2022 08:24:05] "POST / HTTP/1.1" 500 61058
+[30/Nov/2022 09:57:31] "GET / HTTP/1.1" 200 3320
+[30/Nov/2022 09:57:31] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 140421
+[30/Nov/2022 09:57:31] "GET /static/css/login.css HTTP/1.1" 200 4898
+[30/Nov/2022 09:57:31] "GET /static/images/LD-logo.png HTTP/1.1" 200 63723
+[30/Nov/2022 09:57:32] "GET /static/images/17973908.jpg HTTP/1.1" 200 1377175
+********************************************************************************
+admin
+<class 'str'>
+********************************************************************************
+[30/Nov/2022 09:57:42] "POST / HTTP/1.1" 302 0
+[30/Nov/2022 09:57:42] "GET /partner_grade_book/home HTTP/1.1" 200 29928
+[30/Nov/2022 09:57:42] "GET /static/vendors/feather/feather.css HTTP/1.1" 200 7129
+[30/Nov/2022 09:57:42] "GET /static/vendors/typicons/typicons.css HTTP/1.1" 200 18026
+[30/Nov/2022 09:57:42] "GET /static/vendors/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 200 12958
+[30/Nov/2022 09:57:42] "GET /static/vendors/ti-icons/css/themify-icons.css HTTP/1.1" 200 17484
+[30/Nov/2022 09:57:42] "GET /static/vendors/mdi/css/materialdesignicons.min.css HTTP/1.1" 200 176523
+[30/Nov/2022 09:57:42] "GET /static/vendors/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[30/Nov/2022 09:57:42] "GET /static/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 33693
+[30/Nov/2022 09:57:42] "GET /static/vendors/js/vendor.bundle.base.js HTTP/1.1" 200 188604
+[30/Nov/2022 09:57:42] "GET /static/css/vertical-layout-light/style.css HTTP/1.1" 200 920395
+[30/Nov/2022 09:57:42] "GET /static/js/off-canvas.js HTTP/1.1" 200 188
+[30/Nov/2022 09:57:43] "GET /static/js/hoverable-collapse.js HTTP/1.1" 200 806
+[30/Nov/2022 09:57:43] "GET /static/js/template.js HTTP/1.1" 200 5339
+[30/Nov/2022 09:57:43] "GET /static/js/settings.js HTTP/1.1" 200 2954
+[30/Nov/2022 09:57:43] "GET /static/js/todolist.js HTTP/1.1" 200 952
+[30/Nov/2022 09:57:43] "GET /static/images/Walmart_logo.png HTTP/1.1" 200 86638
+[30/Nov/2022 09:57:43] "GET /static/images/LD_Logo.jpg HTTP/1.1" 200 6860
+[30/Nov/2022 09:57:44] "GET /static/vendors/mdi/fonts/materialdesignicons-webfont.woff2?v=3.9.97 HTTP/1.1" 200 224348
+[30/Nov/2022 09:57:44] "GET /static/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 200 30064
+[30/Nov/2022 10:11:08] "GET /static/download_template/Digital%20Grade%20Book%20Roster%20V2%20Template.xlsx HTTP/1.1" 200 26998
+[30/Nov/2022 10:11:10] "GET /static/download_template/Digital%20Grade%20Book%20Roster%20V2%20Template.xlsx HTTP/1.1" 200 26998

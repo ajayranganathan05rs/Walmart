@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" sizes="192x192" href="{% static 'images/favicon.ico'%}">
+    <title>WFM Dashboard</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="{% static 'css/main.css' %} " rel="stylesheet">
+    <style>
+        .progress {
+            height: 6px;
+        }
+
+        .widget-numbers {
+            font-size: 22px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <!--  <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                    <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-database"> </i>
+                                Statistics
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-edit"></i>
+                                Projects
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-cog"></i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            class="p-0 btn">
+                                            <img width="42" class="rounded-circle" src="{% static 'images/avatars/13.png' %}"
+                                                alt="">
+                                            <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true"
+                                            class="dropdown-menu dropdown-menu-right">
+                                            <button type="button" tabindex="0" class="dropdown-item">{{username | title}}</button>
+                                            <a href="{% url 'rpass' %}" style="text-decoration: none;"><button type="button" tabindex="0" class="dropdown-item">Change Password</button></a>
+                                            <div tabindex="-1" class="dropdown-divider"></div>
+                                            <a href="{% url 'logoutUser' %}" style="text-decoration: none;"><button type="button" tabindex="0" class="dropdown-item">Logout</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                        Palaniyappan S
+                                    </div>
+                                    <div class="widget-subheading">
+                                        Manager
+                                    </div>
+                                </div> -->
+                                <!-- <div class="widget-content-right header-user-info ml-3">
+                                    <button type="button"
+                                        class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
+                                        <i class="fa text-white fa-calendar pr-1 pl-1"></i>
+                                    </button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Menu</li>
+                            <!-- <li>
+                                <a href="/wfm/dashboard/">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                    Dashboard
+                                </a>
+                            </li> -->
+                            <li>
+                                <a href="/wfm/upload/" class="mm-active">
+                                    <i class="metismenu-icon pe-7s-upload">
+                                    </i>Uploads
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="app-page-title py-3 mb-3">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div class="page-title-icon">
+                                    <i class="pe-7s-upload icon-gradient bg-mean-fruit">
+                                    </i>
+                                </div>
+                                <div><span id="page-title">Forecast Application</span>
+                                    <div class="page-title-subheading">
+                                        <nav aria-label="breadcrumb">
+                                            <ol class="breadcrumb" id="wfm-breadcrumbs">
+                                            </ol>
+                                        </nav>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card mb-3 card">
+                        <div class="card-body">
+                            <h5 class="card-title">Upload</h5>
+                            <form method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                <div class="position-relative row form-group">
+                                    <label for="exampleFile" class="col-sm-2 col-form-label">File</label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <input name="file" id="exampleFile" accept=".xls,.xlsx,.csv" type="file" class="form-control-file" onchange="$('#others select, #others button').removeAttr('disabled');" required/>
+                                    </div>
+                                </div>
+                                <div id="others">
+                                    <div class="position-relative row">
+                                        <div class="col-sm-10 offset-sm-2">
+                                            <button type="submit" disabled class="btn btn-primary" onclick="$('#loader').show();">Submit</button>
+                                            <button class="btn btn-secondary">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="app-wrapper-footer">
+                    <div class="app-footer">
+                        <div class="app-footer__inner">
+                            <div class="app-footer-left">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <!-- <a href="javascript:void(0);" class="nav-link">
+                                            Footer Link 1
+                                        </a> -->
+                                    </li>
+                                    <li class="nav-item">
+                                        <!-- <a href="javascript:void(0);" class="nav-link">
+                                            Footer Link 2
+                                        </a> -->
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="app-footer-right">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <img src="{% static 'images/logo-inverse.png' %}" alt="Walmart">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
+        </div>
+    </div>
+     <div id="loader" style="display: none; background-color: rgba(255, 255, 255, 0.8); position: fixed; top:0;left: 0;right: 0;bottom: 0;z-index: 9999;">
+        <img src="{% static 'images/loader.gif' %}" alt="loader" style="position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);width: 200px;">
+    </div>
+    <!-- Geo -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{% static 'scripts/main.js' %}"></script>
+    <script type="text/javascript">
+        $("document").ready(function(){
+            $("#exampleFile").change(function() {
+                file=$('#exampleFile').prop('files')[0]
+                var csrf_token = "{{ csrf_token }}"
+                var fd = new FormData()
+                fd.append('docs', file)
+                $.ajax({
+                    url : '/edit_upload/',
+                    csrfmiddlewaretoken : csrf_token,
+                    type : 'POST',
+                    data : fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        val=JSON.parse(data);
+                        x='<option value="">Select a channel</option>'
+                        for(var i=0; i<val['columns'].length; i++ )
+                        {
+                            if (i > 0) 
+                            {
+                                x +='<option value="'+val['columns'][i]+'">'+val['columns'][i]+'</option>'
+                            }
+                        }
+                        document.getElementById("column").innerHTML=x
+                        $( "#column option:first-child" ).attr("disabled","disabled");
+                        $( "#date option:first-child" ).attr("disabled","disabled");
+                        document.getElementById("interval").disabled = true
+                    },
+                    failure: function(data) { 
+                        alert('Error while uploading...')
+                    }
+                  });
+            });
+        });
+    </script>
+</body>
+
+</html>

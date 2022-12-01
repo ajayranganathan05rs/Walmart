@@ -1,0 +1,11 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 16, 2022 - 16:18:23
+Django version 3.2.12, using settings 'Walmart.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[16/Sep/2022 16:18:30] "GET /wfm/upload HTTP/1.1" 200 27175
+[16/Sep/2022 16:19:55] "GET /wfm/upload HTTP/1.1" 200 27175
+[16/Sep/2022 16:19:56] "GET /wfm/upload HTTP/1.1" 200 27175
