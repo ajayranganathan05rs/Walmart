@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>WFM Dashboard</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="{% static 'css/main.css' %} " rel="stylesheet">
+    <style>
+        .progress {
+            height: 6px;
+        }
+
+        .widget-numbers {
+            font-size: 22px !important;
+        }
+        /*.app-header__logo .logo-src {
+            height: 35px;
+            width: 140px;
+            background-size: cover;
+            margin: 10px;
+        }
+        a.logo_hover:hover {
+            color: ##004f9a;
+            text-decoration: underline;
+            background: darkblue;
+            border-radius: 30px;
+        }
+        .app-header__content, .scrollbar-sidebar, .app-header__logo{
+                background: #0071dc !important;
+                color:#fff;
+        }
+        .vertical-nav-menu li a{
+                        color:#fff;
+        }
+
+        .vertical-nav-menu li a.mm-active, 
+        .vertical-nav-menu li a:hover{
+            color: #ffffff;
+            background: #004F9A;
+            font-weight: bold;
+        }
+
+        .app-theme-white.app-container {
+            background: #E6F1FC;
+        }*/
+
+        .app-header__content, .scrollbar-sidebar, .app-header__logo{
+                background: #0071DC !important;
+                color:#fff;
+        }
+        .vertical-nav-menu li a{
+                        color:#fff;
+        }
+
+        .vertical-nav-menu li a.mm-active, 
+        .vertical-nav-menu li a:hover{
+            color: #ffffff;
+            background: #004F9A;
+            font-weight: bold;
+        }
+
+        .app-theme-white.app-container {
+            background: #E6F1FC;
+        }
+        span#page-title {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <a class="logo_hover"  href="upload"><div class="logo-src"></div><a>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            class="p-0 btn">
+                                            <img width="42" class="rounded-circle" src="{% static 'images/avatars/13.png' %}"
+                                                alt="">
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true"
+                                            class="dropdown-menu dropdown-menu-right">
+                                            <button type="button" tabindex="0" class="dropdown-item">{{username | title}}</button>
+                                            <a href="{% url 'rpass' %}" style="text-decoration: none;"><button type="button" tabindex="0" class="dropdown-item">Change Password</button></a>
+                                            <div tabindex="-1" class="dropdown-divider"></div>
+                                            <a href="{% url 'logoutUser' %}" style="text-decoration: none;"><button type="button" tabindex="0" class="dropdown-item">Logout</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                        Palaniyappan S
+                                    </div>
+                                    <div class="widget-subheading">
+                                        Manager
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Menu</li>
+                            <li>
+                                <a href="/wfm/upload/" class="mm-active">
+                                    <i class="metismenu-icon pe-7s-upload">
+                                    </i>Uploads
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="app-page-title py-3 mb-3">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div class="page-title-icon">
+                                    <!-- <i class="pe-7s-upload icon-gradient bg-mean-fruit">
+                                    </i> -->
+                                    <!--  style="width: 35px;height: 35px;" -->
+                                    <img src="{% static 'images/forecasting.jpg' %}" style="width: 57px;height: 57px;padding: 0px;margin: -12px;">
+                                </div>
+                                <div><span id="page-title">Forecast Application</span>
+                                    <div class="page-title-subheading">
+                                        <nav aria-label="breadcrumb">
+                                            <ol class="breadcrumb" id="wfm-breadcrumbs">
+                                            </ol>
+                                        </nav>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-card mb-3 card">
+                        <div class="card-body">
+                            <h5 class="card-title">Upload</h5>
+							<!-- <form method="POST" enctype="multipart/form-data"> -->
+                            <form action={% url 'dashboard' %} method="POST" enctype="multipart/form-data" >
+                                {% csrf_token %}
+                                <!-- <div class="position-relative row form-group"><label for="column"
+                                        class="col-sm-2 col-form-label">Input Selector</label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <select class="form-control" id="dd_interval" required>
+                                            <option value="" disabled selected>Choose your input</option>
+                                            <option value="Email">Last 90 days Interval</option>
+                                            <option value="Voice">Last 6 Week Interval</option>
+                                            <option value="Voice">Forecast</option>
+                                            <option value="Voice">Vendor Distribution</option>
+                                        </select>
+                                    </div>
+                                </div> -->
+
+                                <div class="position-relative row form-group">
+                                    <label for="day_level_drop_down" class="col-sm-2 col-form-label">Input Day-Level Data <span style="color:red;">*</span></label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <select name="day_level_drop_down" id="day_level_drop_down" class="form-control" onchange="$('#day_level').removeAttr('disabled');" required>
+                                            <option value=''>Select No. of Days</option>
+                                            <option value='60'>60</option>
+                                            <option value='90'>90</option>
+                                            <option value='120'>120</option>
+                                        </select>
+                                        <br>
+                                        <input disabled name="day_level" id="day_level" accept=".xls,.xlsx,.csv" type="file" class="form-control-file" onchange="$('#inp_pro').removeAttr('hidden');$('#inp_pro input').removeAttr('disabled');" required/>
+                                    </div>
+                                </div>
+
+                                <div id="inp_pro" class="position-relative row form-group" hidden>
+                                    <label for="inp_pro" class="col-sm-2 col-form-label">Select the Input <span style="color:red;">*</span></label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                         <br>
+                                          <input disabled type="radio" id="int_lvl_data" name="inp_pro_choosen" value="Interval Level Data" onchange="$('#week_data').removeAttr('hidden'); $('#Channel').removeAttr('hidden'); $('#Avg_offered').attr('hidden','hidden'); $('#week_level_drop_down').removeAttr('disabled');">
+                                          <label for="int_lvl_data"> Interval Level Data</label>
+                                          <input disabled type="radio" id="avg_off_dist" name="inp_pro_choosen" onchange="$('#Avg_offered').removeAttr('hidden'); $('#week_data').attr('hidden','hidden'); $('#Channel').attr('hidden','hidden'); $('#Avg_offered input').removeAttr('disabled');" value="Avg Offered  Dist %">
+                                          <label for="avg_off_dist">Offered Dist %</label>
+                                    </div>
+                                </div>     
+
+                                <div id="week_data" class="position-relative row form-group" hidden>
+                                    <label for="week_level_drop_down" class="col-sm-2 col-form-label">Input Week Level Interval Data <span style="color:red;">*</span></label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <select disabled name="week_level_drop_down" id="week_level_drop_down" onchange="$('#week_level').removeAttr('disabled')" class="form-control" required>
+                                            <option value=''>Select No. of Weeks</option>
+                                            <option value='4'>4</option>
+                                            <option value='6'>6</option>
+                                            <option value='8'>8</option>
+                                        </select>
+                                        <br>
+                                        <input disabled name="week_level" id="week_level" accept=".xls,.xlsx,.csv" type="file" class="form-control-file" onchange="$('#column').removeAttr('disabled');" required/>
+                                    </div>
+                                </div>
+
+                                <div id="Avg_offered" class="position-relative row form-group" hidden>
+                                    <label for="Avg_offered" class="col-sm-2 col-form-label">Upload Average Distribution % <span style="color:red;">*</span></label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <input disabled name="avg_offered_data" id="avg_offered_data" accept=".xls,.xlsx,.csv" type="file" class="form-control-file" onchange="$('#Channel2').removeAttr('hidden'); $('#Channel2 select').removeAttr('disabled');" required/>
+                                    </div>
+                                </div>
+
+                                <div class="position-relative row form-group" id="Channel" hidden>
+                                    <label for="column" class="col-sm-2 col-form-label">Select a Channel</label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <select disabled name="column" id="column" class="form-control" onchange="$('#run').removeAttr('disabled');" required>
+                                            <option value="">Select a Channel</option>
+                                        </select>
+                                    </div>
+                                    <div class="position-relative row">
+                                        <div class="col-sm-10 offset-sm-2">
+                                            <!-- <button disabled  id="run">Run</button> -->
+                                            <input disabled type="button" class="btn btn-primary" value="Run" id="run">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="position-relative row form-group" id="Channel2" hidden>
+                                    <label for="column" class="col-sm-2 col-form-label">Select a Channel</label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <select disabled name="column2" id="column2" class="form-control" onchange="$('#queue_offered').removeAttr('hidden'); $('#queue_offered input').removeAttr('disabled');" required>
+                                            <option value="">Select a Channel</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                                <div class="card-body" id="data_table" hidden>
+                                    {{table | safe}}
+                                </div>
+                                <div class="position-relative row form-group" id="sentiment" hidden>
+                                    <label for="exampleFile" class="col-sm-2 col-form-label">Are you happy with the Dist ? <span style="color:red;">*</span></label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                         <br>
+                                          <input type="radio" id="senti_yes" name="cus_sat" value="Yes" onchange="$('#queue_offered').removeAttr('hidden'); $('#queue_offered input').removeAttr('disabled');">
+                                          <label for="senti_yes"> Yes </label>
+                                          <input type="radio" id="senti_no" name="cus_sat" onchange="reload()" value="No">
+                                          <label for="senti_no"> No </label>
+                                    </div>
+                                </div>
+
+                                <div id="queue_offered" class="position-relative row form-group" hidden>
+                                    <label for="exampleFile" class="col-sm-2 col-form-label">Forecast <span style="color:red;">*</span></label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <input disabled name="forecast" id="forecast" accept=".xls,.xlsx,.csv" type="file" class="form-control-file" onchange="$('#vendor_dis input').removeAttr('disabled'); $('#vendor_dis').removeAttr('hidden');" required/>
+                                    </div>
+                                </div>
+                                <div id="vendor_dis" class="position-relative row form-group" hidden>
+                                    <label for="exampleFile1" class="col-sm-2 col-form-label">Vendor Distribution <span style="color:red;">*</span></label>
+                                    <div class="col-sm-10 col-md-6 col-lg-5">
+                                        <input disabled name="vendor" id="vendor" accept=".xls,.xlsx,.csv" type="file" class="form-control-file" required/>
+                                        <!-- onchange="$('#others input, #others select, #others button').removeAttr('disabled');" -->
+                                    </div>
+                                </div>
+                                <div id="others">
+                                    <div class="position-relative row">
+                                        <div class="col-sm-10 offset-sm-2">
+											<!-- <input type="submit" disabled class="btn btn-primary" onclick="$('#loader').show();" id="submit" value="Submit"> -->
+                                            <button type="submit" disabled class="btn btn-primary" onclick="$('#loader').show();" id="submit">Submit</button>
+                                            <button class="btn btn-secondary">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="app-wrapper-footer">
+                    <div class="app-footer">
+                        <div class="app-footer__inner">
+                            <div class="app-footer-left">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                    </li>
+                                    <li class="nav-item">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="app-footer-right">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <img src="{% static 'images/logo-inverse.png' %}" alt="Walmart">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div id="loader" style="display: none; background-color: rgba(255, 255, 255, 0.8); position: fixed; top:0;left: 0;right: 0;bottom: 0;z-index: 9999;">
+        <img src="{% static 'images/loader.gif' %}" alt="loader" style="position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);width: 200px;">
+    </div>
+    <!-- Geo -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{% static 'scripts/main.js' %}"></script>
+    <script type="text/javascript">
+        function reload() {
+            let text = "Do you want to reload the page?";
+            if (confirm(text) == true) 
+            {
+                location.reload(true);
+            }
+        }
+        $("document").ready(function(){
+            $( '#day_level_drop_down option:first-child' ).attr('disabled','disabled');
+            $( '#week_level_drop_down option:first-child' ).attr('disabled','disabled');
+            $( "#interval option:first-child" ).attr("disabled","disabled");
+            $("#vendor").change(function() {
+                day=$('#day_level').prop('files')[0]
+                inp_pro=document.querySelector('input[name="inp_pro_choosen"]:checked').value;
+                week=$('#week_level').prop('files')[0]
+                avg=$('#avg_offered_data').prop('files')[0]
+                forecast=$('#forecast').prop('files')[0]
+                vendor=$('#vendor').prop('files')[0]
+                var csrf_token = "{{ csrf_token }}"
+                var fd = new FormData()
+                fd.append('day', day)
+                fd.append('inp_pro',inp_pro)
+                fd.append('week',week)
+                fd.append('avg', avg)
+                fd.append('forecast', forecast)
+                fd.append('vendor', vendor)
+                $.ajax({
+                    url : '/edit_upload/',
+                    csrfmiddlewaretoken : csrf_token,
+                    type : 'POST',
+                    data : fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        val=JSON.parse(data);
+                        // $('#others button').removeAttr('disabled');
+                        if(val['Length'] > 1){
+                            let text = "The Month of "+val['columns']+" has more than 100% distribution. If you want to continue, click OK?";
+                            if (confirm(text) == true) 
+                            {
+                                text = "You pressed OK!";
+                                document.getElementById("submit").disabled = false;
+                            }
+                            else
+                            {
+                                $('#vendor').val('');
+                            }
+                        }
+                        else{
+                            document.getElementById("submit").disabled = false;
+                            // document.getElementById("column").innerHTML=x
+                            $( "#column option:first-child" ).attr("disabled","disabled");
+                            // $( "#interval option:first-child" ).attr("disabled","disabled");
+                            document.getElementById("interval").disabled = true;
+                        }
+                    },
+                    failure: function(data) { 
+                        alert('Error while uploading...')
+                    }
+                  });
+            });
+			
+			/*$("#submit").click(function() {
+				day_level=parseInt($('#day_level_drop_down :selected').text())
+                day=$('#day_level').prop('files')[0]
+                inp_pro=document.querySelector('input[name="inp_pro_choosen"]:checked').value;
+				week_level=parseInt($('#week_level_drop_down :selected').text())
+                week=$('#week_level').prop('files')[0]
+				var channel1 = $('#column :selected').text();
+                avg=$('#avg_offered_data').prop('files')[0]
+				var channel2 = $('#column2 :selected').text();
+                forecast=$('#forecast').prop('files')[0]
+                vendor=$('#vendor').prop('files')[0]
+                var csrf_token = "{{ csrf_token }}"
+                var fd = new FormData()
+				fd.append('day_level_drop_down', day_level)
+                fd.append('day_level', day)
+                fd.append('inp_pro_choosen',inp_pro)
+				fd.append('week_level_drop_down', week_level)
+                fd.append('week_level',week)
+				fd.append('column',channel1)
+				fd.append('column2',channel2)
+                fd.append('avg_offered_data', avg)
+                fd.append('forecast', forecast)
+                fd.append('vendor', vendor)
+                $.ajax({
+                    url : '/wfm/dashboard/',
+                    csrfmiddlewaretoken : csrf_token,
+                    type : 'POST',
+                    data : fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        val=JSON.parse(data);
+                        // $('#others button').removeAttr('disabled');
+                        if(val['Length'] > 1){
+                            let text = "The Month of "+val['columns']+" has more than 100% distribution. If you want to continue, click OK?";
+                            if (confirm(text) == true) 
+                            {
+                                text = "You pressed OK!";
+                                document.getElementById("submit").disabled = false;
+                            }
+                            else
+                            {
+                                $('#vendor').val('');
+                            }
+                        }
+                        else{
+                            document.getElementById("submit").disabled = false;
+                            // document.getElementById("column").innerHTML=x
+                            $( "#column option:first-child" ).attr("disabled","disabled");
+                            // $( "#interval option:first-child" ).attr("disabled","disabled");
+                            document.getElementById("interval").disabled = true;
+                        }
+                    },
+                    failure: function(data) { 
+                        alert('Error while uploading...')
+                    }
+                  });
+            });*/
+
+            $("#day_level").change(function() {
+                file=$('#day_level').prop('files')[0]
+                var input_data = parseInt($("#day_level_drop_down :selected").text());
+                var csrf_token = "{{ csrf_token }}"
+                var fd = new FormData()
+                fd.append('docs', file)
+                $.ajax({
+                    url : '/edit_upload_1/',
+                    csrfmiddlewaretoken : csrf_token,
+                    type : 'POST',
+                    data : fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        val=JSON.parse(data);
+                        if(val['Length'] < input_data){
+                            alert('The upload "Input Day-Level Data" file has only '+val['Length']+' rows. Check with the dropdown and re-upload the file')
+                            window.location.reload()
+                        }
+                        else{
+                            x='<option value="">Select a channel</option>'
+                            for(var i=0; i<val['columns'].length; i++ )
+                            {
+                                if (i > 0) 
+                                {
+                                    x +='<option value="'+val['columns'][i]+'">'+val['columns'][i]+'</option>'
+                                }
+                            }
+                            document.getElementById("column").innerHTML=x
+                            document.getElementById("column2").innerHTML=x
+                            // $( "#column option:first-child" ).attr("disabled","disabled");
+                            // // $( "#interval option:first-child" ).attr("disabled","disabled");
+                            // document.getElementById("interval").disabled = true;
+                        }
+                    },
+                    failure: function(data) { 
+                        alert('Error while uploading...')
+                    }
+                  });
+            });
+
+            $('#run').click(function(){
+                day=$('#day_level').prop('files')[0]
+                week=$('#week_level').prop('files')[0]
+                var week_drop = parseInt($('#week_level_drop_down :selected').text())
+                var channel = $('#column :selected').text();
+                var csrf_token = "{{ csrf_token }}"
+                var fd = new FormData()
+                fd.append('day', day)
+                fd.append('week', week)
+                fd.append('week_drop', week_drop)
+                fd.append('channel', channel)
+                $.ajax({
+                    url : '/download_avg_dist/',
+                    csrfmiddlewaretoken : csrf_token,
+                    type : 'POST',
+                    data : fd,
+                    contentType: false,
+                    processData: false,
+                    success: function(data) {
+                        val=JSON.parse(data);
+                        document.getElementById('data_table').innerHTML=val['table'];
+                        var csv_data = [];
+                        // Get each row data
+                        var rows = document.getElementsByTagName('tr');
+                        for (var i = 0; i < rows.length; i++) {
+
+                            // Get each column data
+                            var cols = rows[i].querySelectorAll('td,th');
+
+                            // Stores each csv row data
+                            var csvrow = [];
+                            for (var j = 0; j < cols.length; j++) {
+
+                                // Get the text data of each cell of
+                                // a row and push it to csvrow
+                                csvrow.push(cols[j].innerHTML);
+                            }
+
+                            // Combine each column value with comma
+                            csv_data.push(csvrow.join(","));
+                        }
+                        // combine each row data with new line character
+                        csv_data = csv_data.join('\n');
+                        filename = 'Generated_Average_distribution_for_'+val['channel']  
+                        downloadCSVFile(csv_data,filename);
+                        $('#sentiment').removeAttr('hidden');
+                        $('#sentiment').removeAttr('disabled');
+                    },
+                    failure: function(data) { 
+                        alert('Error while uploading...')
+                    }
+                  });
+            });
+
+        });
+
+        function downloadCSVFile(csv_data,ven_val) {
+ 
+            // Create CSV file object and feed
+            // our csv_data into it
+            CSVFile = new Blob([csv_data], {
+                type: "text/csv"
+            });
+ 
+            // Create to temporary link to initiate
+            // download process
+            var temp_link = document.createElement('a');
+ 
+            // Download csv file
+            temp_link.download = ven_val+".csv";
+            var url = window.URL.createObjectURL(CSVFile);
+            temp_link.href = url;
+ 
+            // This link should not be displayed
+            temp_link.style.display = "none";
+            document.body.appendChild(temp_link);
+ 
+            // Automatically click the link to
+            // trigger download
+            temp_link.click();
+            document.body.removeChild(temp_link);
+        }
+    </script>
+</body>
+
+</html>
