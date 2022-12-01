@@ -1,0 +1,1362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="icon" sizes="192x192" href="{% static 'images/favicon.ico'%}">
+    <title>WFM Dashboard</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/daterangepicker.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/jquery.dataTables.min.css' %}">
+    <!-- <link type="text/css" href="https://cdn.datatables.net/buttons/1.1.2/css/buttons.dataTables.min.css" rel="stylesheet"> -->
+    <style>
+        .progress {
+            height: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header closed-sidebar">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <!-- <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div> -->
+                    <!-- <ul class="header-menu nav">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-database"> </i>
+                                Statistics
+                            </a>
+                        </li>
+                        <li class="btn-group nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-edit"></i>
+                                Projects
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="javascript:void(0);" class="nav-link">
+                                <i class="nav-link-icon fa fa-cog"></i>
+                                Settings
+                            </a>
+                        </li>
+                    </ul> -->
+                </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            class="p-0 btn">
+                                            <img width="42" class="rounded-circle" src="{% static 'images/avatars/13.png' %}"
+                                                alt="">
+                                            <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true"
+                                            class="dropdown-menu dropdown-menu-right">
+                                            <button type="button" tabindex="0" class="dropdown-item">{{username | title}}</button>
+                                            <a href="{% url 'rpass' %}" style="text-decoration: none;"><button type="button" tabindex="0" class="dropdown-item">Change Password</button></a>
+                                            <div tabindex="-1" class="dropdown-divider"></div>
+                                            <a href="{% url 'logoutUser' %}" style="text-decoration: none;"><button type="button" tabindex="0" class="dropdown-item">Logout</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                        Palaniyappan S
+                                    </div>
+                                    <div class="widget-subheading">
+                                        Manager
+                                    </div>
+                                </div> -->
+                                <!-- <div class="widget-content-right header-user-info ml-3">
+                                    <button type="button"
+                                        class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
+                                        <i class="fa text-white fa-calendar pr-1 pl-1"></i>
+                                    </button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Menu</li>
+                            <li>
+                                <a href="#" class="mm-active">
+                                    <i class="metismenu-icon pe-7s-rocket"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <!-- <li class="app-sidebar__heading">LOB</li> -->
+                            <!-- <li>
+                                <a href="#">
+                                    <i class="metismenu-icon pe-7s-albums"></i>
+                                    LOB
+                                    <i class="metismenu-state-icon pe-7s-angle-down caret-left"></i>
+                                </a>
+                                <ul class="mm-collapse">
+                                    <li>
+                                        <a href="#">
+                                            <i class="metismenu-icon">
+                                            </i>Voice
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="metismenu-icon">
+                                            </i>Spanish
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="metismenu-icon">
+                                            </i>Chat
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="metismenu-icon">
+                                            </i>Email
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="channels.html">
+                                    <i class="metismenu-icon pe-7s-network"></i>
+                                    Channels
+                                </a>
+                            </li> -->
+                            <!-- <li class="app-sidebar__heading">Venders</li> -->
+                            <li>
+                                <a href="/wfm/upload/">
+                                    <i class="metismenu-icon pe-7s-upload">
+                                    </i>Upload
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="app-page-title py-3 mb-3">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div class="page-title-icon">
+                                    <i class="pe-7s-graph3 icon-gradient bg-mean-fruit">
+                                    </i>
+                                </div>
+                                <div>Dashboard
+                                    <div class="page-title-subheading">{{module}}
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- <div class="page-title-actions"> This is an example dashboard.
+                                <div class="d-block dropdown text-lg-right">
+                                    <button type="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false"
+                                        class="mb-0 mr-2 p-0 dropdown-toggle btn btn-outline-link">
+                                        <span class="btn-icon-wrapper pr-2 opacity-7">
+                                            <i class="fa fa-calendar-alt fa-w-20"></i>
+                                        </span>
+                                        <span class="daterangepicker-field">Date</span>
+                                    </button>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card mb-3 widget-content">
+                                <div class="widget-content-outer">
+                                    <div class="widget-content-wrapper">
+                                        <div class="widget-content-left">
+                                            <div class="widget-heading">MAE </div>
+                                            <div class="widget-subheading">Mean Absolute Error</div>
+                                        </div>
+                                        <div class="widget-content-right">
+                                            <div class="widget-numbers text-success"><span>{{MAE}}</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="widget-progress-wrapper"> 7,45,723
+                                        <div class="progress-bar-sm progress-bar-animated-alt progress">
+                                            <div class="progress-bar bg-deep-blue" role="progressbar" aria-valuenow="65"
+                                                aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                                        </div>
+                                        <div class="progress-sub-label">
+                                            <div class="sub-label-left">OTF</div>
+                                            <div class="sub-label-right">65%</div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card mb-3 widget-content">
+                                <div class="widget-content-outer">
+                                    <div class="widget-content-wrapper">
+                                        <div class="widget-content-left">
+                                            <div class="widget-heading">RMSE </div>
+                                            <div class="widget-subheading">Root Mean Square Error</div>
+                                        </div>
+                                        <div class="widget-content-right">
+                                            <div class="widget-numbers text-info"><span>{{RMSE}}</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="widget-progress-wrapper">8,56,983
+                                        <div class="progress-bar-sm progress-bar-animated-alt progress">
+                                            <div class="progress-bar bg-strong-bliss" role="progressbar"
+                                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 30%;"></div>
+                                        </div>
+                                        <div class="progress-sub-label">
+                                            <div class="sub-label-left">HTF</div>
+                                            <div class="sub-label-right">30%</div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="card mb-3 widget-content">
+                                <div class="widget-content-outer">
+                                    <div class="widget-content-wrapper">
+                                        <div class="widget-content-left">
+                                            <div class="widget-heading">MAPE </div>
+                                            <div class="widget-subheading">Mean Absolute Percentage Error</div>
+                                        </div>
+                                        <div class="widget-content-right">
+                                            <div class="widget-numbers text-danger"><span>{{MAPE}}</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="widget-progress-wrapper">5,22,461
+                                        <div class="progress-bar-sm progress-bar-animated-alt progress">
+                                            <div class="progress-bar bg-happy-green" role="progressbar"
+                                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 75%;"></div>
+                                        </div>
+                                        <div class="progress-sub-label">
+                                            <div class="sub-label-left">HTO</div>
+                                            <div class="sub-label-right">75%</div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row" id="Day">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        DOW FORECAST
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <div id="service-container" style="height: 230px;" class="echarts_div">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="Month">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        Monthly Forecast
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade show active" id="tabs-eg-77">
+                                            <div id="month-container" style="height: 250px;" class="echarts_div">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="mb-3 card">
+                                <div class="card-header-tab card-header-tab-animation card-header">
+                                    <div class="card-header-title">
+                                        <i class="header-icon lnr-apartment icon-gradient bg-love-kiss"> </i>
+                                        FORECAST GENERATED
+                                    </div>
+
+                                </div>
+                                <div class="card-body">
+                                    <table class="mb-0 table table-bordered table-striped table-sm" id="myTable">
+                                    	{{table | safe}}
+                                        <!-- <thead>
+                                            <tr class="bg-secondary text-white">
+                                                <th title="Field #1">Date</th>
+                                                <th class="text-right" title="Field #2">Voice</th>
+                                                <th class="text-right" title="Field #3">Chat</th>
+                                                <th class="text-right" title="Field #4">Email</th>
+                                                <th class="text-right" title="Field #5">Offline</th>
+                                                <th class="text-right" title="Field #6">Outbound</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>01-02-2016</td>
+                                                <td class="text-right">15966</td>
+                                                <td class="text-right">22822</td>
+                                                <td class="text-right">60947</td>
+                                                <td class="text-right">10377</td>
+                                                <td class="text-right">8180</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-03-2016</td>
+                                                <td class="text-right">15550</td>
+                                                <td class="text-right">22307</td>
+                                                <td class="text-right">60869</td>
+                                                <td class="text-right">9382</td>
+                                                <td class="text-right">7708</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-04-2016</td>
+                                                <td class="text-right">17233</td>
+                                                <td class="text-right">23077</td>
+                                                <td class="text-right">59858</td>
+                                                <td class="text-right">11192</td>
+                                                <td class="text-right">8475</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-05-2016</td>
+                                                <td class="text-right">17136</td>
+                                                <td class="text-right">21875</td>
+                                                <td class="text-right">59254</td>
+                                                <td class="text-right">11376</td>
+                                                <td class="text-right">8258</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-06-2016</td>
+                                                <td class="text-right">16480</td>
+                                                <td class="text-right">21224</td>
+                                                <td class="text-right">59520</td>
+                                                <td class="text-right">9111</td>
+                                                <td class="text-right">8070</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-07-2016</td>
+                                                <td class="text-right">17156</td>
+                                                <td class="text-right">22134</td>
+                                                <td class="text-right">59038</td>
+                                                <td class="text-right">9231</td>
+                                                <td class="text-right">8329</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-08-2016</td>
+                                                <td class="text-right">17879</td>
+                                                <td class="text-right">24834</td>
+                                                <td class="text-right">59257</td>
+                                                <td class="text-right">9487</td>
+                                                <td class="text-right">7890</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-09-2016</td>
+                                                <td class="text-right">17307</td>
+                                                <td class="text-right">22865</td>
+                                                <td class="text-right">59712</td>
+                                                <td class="text-right">11071</td>
+                                                <td class="text-right">7946</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-10-2016</td>
+                                                <td class="text-right">16992</td>
+                                                <td class="text-right">21103</td>
+                                                <td class="text-right">57853</td>
+                                                <td class="text-right">10579</td>
+                                                <td class="text-right">8276</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-11-2016</td>
+                                                <td class="text-right">15569</td>
+                                                <td class="text-right">23535</td>
+                                                <td class="text-right">57124</td>
+                                                <td class="text-right">9584</td>
+                                                <td class="text-right">7717</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-12-2016</td>
+                                                <td class="text-right">16739</td>
+                                                <td class="text-right">22114</td>
+                                                <td class="text-right">57569</td>
+                                                <td class="text-right">9805</td>
+                                                <td class="text-right">7565</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-01-2017</td>
+                                                <td class="text-right">15584</td>
+                                                <td class="text-right">21397</td>
+                                                <td class="text-right">60801</td>
+                                                <td class="text-right">11408</td>
+                                                <td class="text-right">7347</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-02-2017</td>
+                                                <td class="text-right">16741</td>
+                                                <td class="text-right">22694</td>
+                                                <td class="text-right">57908</td>
+                                                <td class="text-right">9436</td>
+                                                <td class="text-right">8409</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-03-2017</td>
+                                                <td class="text-right">16429</td>
+                                                <td class="text-right">23734</td>
+                                                <td class="text-right">58882</td>
+                                                <td class="text-right">10539</td>
+                                                <td class="text-right">7051</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-04-2017</td>
+                                                <td class="text-right">17890</td>
+                                                <td class="text-right">22647</td>
+                                                <td class="text-right">58596</td>
+                                                <td class="text-right">11283</td>
+                                                <td class="text-right">7358</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-05-2017</td>
+                                                <td class="text-right">15522</td>
+                                                <td class="text-right">22005</td>
+                                                <td class="text-right">60975</td>
+                                                <td class="text-right">10656</td>
+                                                <td class="text-right">8618</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-06-2017</td>
+                                                <td class="text-right">17017</td>
+                                                <td class="text-right">24574</td>
+                                                <td class="text-right">60333</td>
+                                                <td class="text-right">9605</td>
+                                                <td class="text-right">8169</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-07-2017</td>
+                                                <td class="text-right">17694</td>
+                                                <td class="text-right">21035</td>
+                                                <td class="text-right">58239</td>
+                                                <td class="text-right">9474</td>
+                                                <td class="text-right">7033</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-08-2017</td>
+                                                <td class="text-right">16423</td>
+                                                <td class="text-right">22977</td>
+                                                <td class="text-right">60546</td>
+                                                <td class="text-right">9566</td>
+                                                <td class="text-right">7786</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-09-2017</td>
+                                                <td class="text-right">15813</td>
+                                                <td class="text-right">23883</td>
+                                                <td class="text-right">60311</td>
+                                                <td class="text-right">9408</td>
+                                                <td class="text-right">8508</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-10-2017</td>
+                                                <td class="text-right">15407</td>
+                                                <td class="text-right">22216</td>
+                                                <td class="text-right">57933</td>
+                                                <td class="text-right">9627</td>
+                                                <td class="text-right">7921</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-11-2017</td>
+                                                <td class="text-right">15533</td>
+                                                <td class="text-right">21561</td>
+                                                <td class="text-right">57235</td>
+                                                <td class="text-right">9173</td>
+                                                <td class="text-right">7022</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-12-2017</td>
+                                                <td class="text-right">17998</td>
+                                                <td class="text-right">24689</td>
+                                                <td class="text-right">57348</td>
+                                                <td class="text-right">9302</td>
+                                                <td class="text-right">7697</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-01-2018</td>
+                                                <td class="text-right">17777</td>
+                                                <td class="text-right">24327</td>
+                                                <td class="text-right">59864</td>
+                                                <td class="text-right">10250</td>
+                                                <td class="text-right">7158</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-02-2018</td>
+                                                <td class="text-right">16102</td>
+                                                <td class="text-right">23091</td>
+                                                <td class="text-right">60487</td>
+                                                <td class="text-right">11255</td>
+                                                <td class="text-right">8086</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-03-2018</td>
+                                                <td class="text-right">16983</td>
+                                                <td class="text-right">22909</td>
+                                                <td class="text-right">60457</td>
+                                                <td class="text-right">10124</td>
+                                                <td class="text-right">7549</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-04-2018</td>
+                                                <td class="text-right">15813</td>
+                                                <td class="text-right">22860</td>
+                                                <td class="text-right">60301</td>
+                                                <td class="text-right">11251</td>
+                                                <td class="text-right">7428</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-05-2018</td>
+                                                <td class="text-right">16823</td>
+                                                <td class="text-right">23628</td>
+                                                <td class="text-right">57934</td>
+                                                <td class="text-right">10046</td>
+                                                <td class="text-right">8655</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-06-2018</td>
+                                                <td class="text-right">15463</td>
+                                                <td class="text-right">23757</td>
+                                                <td class="text-right">59919</td>
+                                                <td class="text-right">10177</td>
+                                                <td class="text-right">8374</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-07-2018</td>
+                                                <td class="text-right">15080</td>
+                                                <td class="text-right">23392</td>
+                                                <td class="text-right">59816</td>
+                                                <td class="text-right">9029</td>
+                                                <td class="text-right">8766</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-08-2018</td>
+                                                <td class="text-right">15466</td>
+                                                <td class="text-right">24110</td>
+                                                <td class="text-right">58404</td>
+                                                <td class="text-right">9956</td>
+                                                <td class="text-right">8037</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-09-2018</td>
+                                                <td class="text-right">15346</td>
+                                                <td class="text-right">21382</td>
+                                                <td class="text-right">57797</td>
+                                                <td class="text-right">10502</td>
+                                                <td class="text-right">8647</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-10-2018</td>
+                                                <td class="text-right">16538</td>
+                                                <td class="text-right">23136</td>
+                                                <td class="text-right">59810</td>
+                                                <td class="text-right">9217</td>
+                                                <td class="text-right">8458</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-11-2018</td>
+                                                <td class="text-right">16387</td>
+                                                <td class="text-right">21341</td>
+                                                <td class="text-right">59412</td>
+                                                <td class="text-right">9935</td>
+                                                <td class="text-right">7281</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-12-2018</td>
+                                                <td class="text-right">16989</td>
+                                                <td class="text-right">21477</td>
+                                                <td class="text-right">57368</td>
+                                                <td class="text-right">11129</td>
+                                                <td class="text-right">8614</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-01-2019</td>
+                                                <td class="text-right">16281</td>
+                                                <td class="text-right">22505</td>
+                                                <td class="text-right">60747</td>
+                                                <td class="text-right">10587</td>
+                                                <td class="text-right">8357</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-02-2019</td>
+                                                <td class="text-right">17208</td>
+                                                <td class="text-right">21867</td>
+                                                <td class="text-right">60225</td>
+                                                <td class="text-right">9573</td>
+                                                <td class="text-right">8315</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-03-2019</td>
+                                                <td class="text-right">17678</td>
+                                                <td class="text-right">21484</td>
+                                                <td class="text-right">60700</td>
+                                                <td class="text-right">11054</td>
+                                                <td class="text-right">7802</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-04-2019</td>
+                                                <td class="text-right">15755</td>
+                                                <td class="text-right">24987</td>
+                                                <td class="text-right">57447</td>
+                                                <td class="text-right">10350</td>
+                                                <td class="text-right">7254</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-05-2019</td>
+                                                <td class="text-right">16160</td>
+                                                <td class="text-right">24757</td>
+                                                <td class="text-right">57398</td>
+                                                <td class="text-right">10589</td>
+                                                <td class="text-right">7295</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-06-2019</td>
+                                                <td class="text-right">15075</td>
+                                                <td class="text-right">23779</td>
+                                                <td class="text-right">57469</td>
+                                                <td class="text-right">9418</td>
+                                                <td class="text-right">8241</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-07-2019</td>
+                                                <td class="text-right">16470</td>
+                                                <td class="text-right">24989</td>
+                                                <td class="text-right">59555</td>
+                                                <td class="text-right">11486</td>
+                                                <td class="text-right">8345</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-08-2019</td>
+                                                <td class="text-right">17367</td>
+                                                <td class="text-right">22246</td>
+                                                <td class="text-right">59752</td>
+                                                <td class="text-right">9708</td>
+                                                <td class="text-right">7703</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-09-2019</td>
+                                                <td class="text-right">16363</td>
+                                                <td class="text-right">24101</td>
+                                                <td class="text-right">58588</td>
+                                                <td class="text-right">11355</td>
+                                                <td class="text-right">8777</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-10-2019</td>
+                                                <td class="text-right">15539</td>
+                                                <td class="text-right">22769</td>
+                                                <td class="text-right">59028</td>
+                                                <td class="text-right">10204</td>
+                                                <td class="text-right">8489</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-11-2019</td>
+                                                <td class="text-right">15619</td>
+                                                <td class="text-right">23594</td>
+                                                <td class="text-right">60579</td>
+                                                <td class="text-right">10472</td>
+                                                <td class="text-right">8782</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-12-2019</td>
+                                                <td class="text-right">17900</td>
+                                                <td class="text-right">22549</td>
+                                                <td class="text-right">59814</td>
+                                                <td class="text-right">11163</td>
+                                                <td class="text-right">8504</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-01-2020</td>
+                                                <td class="text-right">15041</td>
+                                                <td class="text-right">22558</td>
+                                                <td class="text-right">57394</td>
+                                                <td class="text-right">11492</td>
+                                                <td class="text-right">7969</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-02-2020</td>
+                                                <td class="text-right">16630</td>
+                                                <td class="text-right">22495</td>
+                                                <td class="text-right">58480</td>
+                                                <td class="text-right">10530</td>
+                                                <td class="text-right">8443</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-03-2020</td>
+                                                <td class="text-right">17461</td>
+                                                <td class="text-right">24463</td>
+                                                <td class="text-right">59144</td>
+                                                <td class="text-right">10832</td>
+                                                <td class="text-right">8375</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-04-2020</td>
+                                                <td class="text-right">15782</td>
+                                                <td class="text-right">21340</td>
+                                                <td class="text-right">58169</td>
+                                                <td class="text-right">9611</td>
+                                                <td class="text-right">8026</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-05-2020</td>
+                                                <td class="text-right">15280</td>
+                                                <td class="text-right">23957</td>
+                                                <td class="text-right">57802</td>
+                                                <td class="text-right">10109</td>
+                                                <td class="text-right">7081</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-06-2020</td>
+                                                <td class="text-right">17042</td>
+                                                <td class="text-right">23535</td>
+                                                <td class="text-right">58520</td>
+                                                <td class="text-right">9654</td>
+                                                <td class="text-right">8642</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-07-2020</td>
+                                                <td class="text-right">15775</td>
+                                                <td class="text-right">22539</td>
+                                                <td class="text-right">57800</td>
+                                                <td class="text-right">9740</td>
+                                                <td class="text-right">7460</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-08-2020</td>
+                                                <td class="text-right">15924</td>
+                                                <td class="text-right">23299</td>
+                                                <td class="text-right">59670</td>
+                                                <td class="text-right">10601</td>
+                                                <td class="text-right">7486</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-09-2020</td>
+                                                <td class="text-right">16268</td>
+                                                <td class="text-right">24292</td>
+                                                <td class="text-right">59030</td>
+                                                <td class="text-right">10534</td>
+                                                <td class="text-right">8004</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-10-2020</td>
+                                                <td class="text-right">16843</td>
+                                                <td class="text-right">24915</td>
+                                                <td class="text-right">57730</td>
+                                                <td class="text-right">9517</td>
+                                                <td class="text-right">7398</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-11-2020</td>
+                                                <td class="text-right">16579</td>
+                                                <td class="text-right">22394</td>
+                                                <td class="text-right">59675</td>
+                                                <td class="text-right">10024</td>
+                                                <td class="text-right">7372</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-12-2020</td>
+                                                <td class="text-right">16665</td>
+                                                <td class="text-right">24061</td>
+                                                <td class="text-right">59764</td>
+                                                <td class="text-right">10138</td>
+                                                <td class="text-right">8142</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-01-2021</td>
+                                                <td class="text-right">17600</td>
+                                                <td class="text-right">24959</td>
+                                                <td class="text-right">59801</td>
+                                                <td class="text-right">10317</td>
+                                                <td class="text-right">7455</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-02-2021</td>
+                                                <td class="text-right">15075</td>
+                                                <td class="text-right">22584</td>
+                                                <td class="text-right">60825</td>
+                                                <td class="text-right">9428</td>
+                                                <td class="text-right">7222</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-03-2021</td>
+                                                <td class="text-right">17597</td>
+                                                <td class="text-right">24113</td>
+                                                <td class="text-right">58644</td>
+                                                <td class="text-right">10928</td>
+                                                <td class="text-right">8779</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-04-2021</td>
+                                                <td class="text-right">15972</td>
+                                                <td class="text-right">22450</td>
+                                                <td class="text-right">58946</td>
+                                                <td class="text-right">11088</td>
+                                                <td class="text-right">7143</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-05-2021</td>
+                                                <td class="text-right">17105</td>
+                                                <td class="text-right">24136</td>
+                                                <td class="text-right">57206</td>
+                                                <td class="text-right">10479</td>
+                                                <td class="text-right">7210</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-06-2021</td>
+                                                <td class="text-right">17472</td>
+                                                <td class="text-right">24057</td>
+                                                <td class="text-right">58572</td>
+                                                <td class="text-right">9956</td>
+                                                <td class="text-right">7819</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-07-2021</td>
+                                                <td class="text-right">16459</td>
+                                                <td class="text-right">23068</td>
+                                                <td class="text-right">58769</td>
+                                                <td class="text-right">9874</td>
+                                                <td class="text-right">8578</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-08-2021</td>
+                                                <td class="text-right">16286</td>
+                                                <td class="text-right">24920</td>
+                                                <td class="text-right">60791</td>
+                                                <td class="text-right">9770</td>
+                                                <td class="text-right">8592</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-09-2021</td>
+                                                <td class="text-right">15653</td>
+                                                <td class="text-right">21866</td>
+                                                <td class="text-right">60610</td>
+                                                <td class="text-right">9421</td>
+                                                <td class="text-right">7698</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-10-2021</td>
+                                                <td class="text-right">17299</td>
+                                                <td class="text-right">22409</td>
+                                                <td class="text-right">57800</td>
+                                                <td class="text-right">11134</td>
+                                                <td class="text-right">7502</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-11-2021</td>
+                                                <td class="text-right">15066</td>
+                                                <td class="text-right">24418</td>
+                                                <td class="text-right">58397</td>
+                                                <td class="text-right">11429</td>
+                                                <td class="text-right">8799</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-12-2021</td>
+                                                <td class="text-right">16310</td>
+                                                <td class="text-right">21774</td>
+                                                <td class="text-right">57326</td>
+                                                <td class="text-right">10711</td>
+                                                <td class="text-right">7056</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-01-2022</td>
+                                                <td class="text-right">17838</td>
+                                                <td class="text-right">22408</td>
+                                                <td class="text-right">58753</td>
+                                                <td class="text-right">11106</td>
+                                                <td class="text-right">7864</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-02-2022</td>
+                                                <td class="text-right">16608</td>
+                                                <td class="text-right">24678</td>
+                                                <td class="text-right">58890</td>
+                                                <td class="text-right">11013</td>
+                                                <td class="text-right">8549</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-03-2022</td>
+                                                <td class="text-right">15576</td>
+                                                <td class="text-right">22995</td>
+                                                <td class="text-right">58606</td>
+                                                <td class="text-right">11391</td>
+                                                <td class="text-right">8057</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-04-2022</td>
+                                                <td class="text-right">16566</td>
+                                                <td class="text-right">22289</td>
+                                                <td class="text-right">57624</td>
+                                                <td class="text-right">10468</td>
+                                                <td class="text-right">8613</td>
+                                            </tr>
+                                            <tr>
+                                                <td>01-05-2022</td>
+                                                <td class="text-right">16727</td>
+                                                <td class="text-right">23274</td>
+                                                <td class="text-right">58768</td>
+                                                <td class="text-right">9471</td>
+                                                <td class="text-right">7969</td>
+                                            </tr>
+                                        </tbody> -->
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="app-wrapper-footer">
+                    <div class="app-footer">
+                        <div class="app-footer__inner">
+                            <div class="app-footer-left">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <!-- <a href="javascript:void(0);" class="nav-link">
+                                            Footer Link 1
+                                        </a> -->
+                                    </li>
+                                    <li class="nav-item">
+                                        <!-- <a href="javascript:void(0);" class="nav-link">
+                                            Footer Link 2
+                                        </a> -->
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="app-footer-right">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0);" class="nav-link">
+                                            <img src="{% static 'images/logo-inverse.png' %}" alt="Walmart">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{% static 'scripts/main.js' %}"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.min.js"></script>
+    <script data-require="moment.js@2.14.1" data-semver="2.14.1" src="https://npmcdn.com/moment@2.14.1"></script>
+    <script data-require="knockout@3.3.0" data-semver="3.3.0"
+        src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.1/knockout-latest.debug.js"></script>
+    <script src="{% static 'scripts/daterangepicker.js' %}"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.3.1/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.html5.min.js"></script>
+
+    <script type="text/javascript">
+        if('{{user_select}}' == 'Month'){
+            document.getElementById("Day").style.display = "none";
+        }
+        var dom = document.getElementById("service-container");
+        var myChart = echarts.init(dom);
+        var app = {};
+        var m_first = "{{M_First}}"
+        var m_last = "{{M_Last}}"
+        var month_list = "{{M_List}}"
+        var month_list = month_list.replaceAll('&#x27;','"')
+        var month_list = JSON.parse(month_list)
+        var exist_month_year = "{{M_Exist_Year}}"
+        var exist_month_year = exist_month_year.replaceAll('&#x27;','"')
+        var exist_month_year = JSON.parse(exist_month_year)
+        var exist_month_value = JSON.parse("{{M_Exist_Value}}")
+        var predict_month_year = "{{M_Predict_Year}}"
+        var predict_month_year = predict_month_year.replaceAll('&#x27;','"')
+        var predict_month_year = JSON.parse(predict_month_year)
+        var predict_month_value = JSON.parse("{{M_Predict_Value}}")
+        var up_predict_month_value = JSON.stringify(predict_month_value,(k,v) => v === 0 ? null : v)
+        var predict_month_value = JSON.parse(up_predict_month_value)
+        if('{{user_select}}' == 'Day'){
+            var pre = JSON.parse("{{Predict}}")
+            len=Math.round(pre.length/7)
+            var n_list=[]
+            var series='['
+            var inner_start_len=0
+            var inner_end_len=7
+            for (let i = 0; i <=len; i++) {
+                inner_start_len=inner_start_len
+                inner_end_len=inner_end_len
+                n_list.push(pre.slice(inner_start_len,inner_end_len))
+                inner_start_len=inner_start_len+7
+                inner_end_len=inner_end_len+7
+            }
+            for (let index = 0; index < n_list.length-1; index++) {
+                series+='{"name": "Week '+(index+1)+'","type": "line","data": ['+n_list[index]+']},'
+            }
+            var plot_dow=series.slice(0,-1)+']'
+            plot_dow=JSON.parse(plot_dow)
+            var p_legend=[]
+            for(var i=1;i<=len;i++){
+                p_legend.push('Week '+i)
+            }
+            var week = "{{weeks}}"
+            var week = week.replaceAll('&#x27;','"')
+            var week = JSON.parse(week)    
+        }
+        var option;
+        option = {
+            color: [
+                        "#87C9E2", "#FF7575", "#FAC858", "#5470C6",
+                        "#91CC75", "#91CC75", "#91CC75", "#91CC75",  "#91CC75", "#91CC75", "#91CC75", "#91CC75"
+                    ],
+            tooltip: {
+                trigger: 'axis'
+            },
+            grid: {
+                left: '0',
+                right: '20',
+                bottom: '0',
+                top: '28',
+                containLabel: true
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    magicType: { show: true, type: ['line', 'bar', 'stack', 'tiled'] },
+                    dataView: { show: true, readOnly: false },
+                    restore: { show: true }
+                }
+            },
+            legend: {
+                // data: ['Voice', 'Chat', 'Email', 'Offline', 'Outbound']
+                data: p_legend
+            },
+            xAxis: [
+                {
+                    type: 'category',
+                    // boundaryGap: false,
+                    // splitLine: { show: false },
+                    data: ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+                    // data: week
+                }
+            ],
+            yAxis: [
+                {
+                    splitLine: { show: true },
+                    min: function (value) {
+                        return value.min - 20;
+                    },
+                    type: 'value'
+                }
+            ],
+            series: plot_dow
+            // [
+                // {
+                //     name: 'Voice',
+                //     type: 'line',
+                //     data: [15584,
+                //         17777,
+                //         16281,
+                //         15041,
+                //         17600,
+                //         17838,
+                //         15966]
+                // },
+                // {
+                //     name: 'Chat',
+                //     type: 'line',
+                //     data: [21397,
+                //         24327,
+                //         22505,
+                //         22558,
+                //         24959,
+                //         22408,
+                //         22822]
+                //     // }
+                // },
+                // {
+                //     name: 'Email',
+                //     type: 'line',
+                //     data: [60801,
+                //         59864,
+                //         60747,
+                //         57394,
+                //         59801,
+                //         58753,
+                //         60947]
+                // },
+                // {
+                //     name: 'Offline',
+                //     type: 'line',
+                //     data: [11408,
+                //         10250,
+                //         10587,
+                //         11492,
+                //         10317,
+                //         11106,
+                //         10377]
+                // },
+                // {
+                //     name: 'Outbound',
+                //     type: 'line',
+                //     data: [7347,
+                //         7158,
+                //         8357,
+                //         7969,
+                //         7455,
+                //         7864,
+                //         8180]
+                // },
+            // ]
+        };
+
+        if (option && typeof option === 'object') {
+            myChart.setOption(option);
+        }
+
+
+
+        var dom = document.getElementById("month-container");
+        var myChart = echarts.init(dom);
+        var app = {};
+
+        var option;
+        option = {
+            tooltip: {
+                trigger: 'axis'
+            },
+            grid: {
+                top: '30',
+                left: '5',
+                right: '20',
+                bottom: '50',
+                containLabel: true
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    magicType: { show: true, type: ['line', 'bar', 'stack', 'tiled'] },
+                    dataView: { show: true, readOnly: false },
+                    restore: { show: true }
+                }
+            },
+            legend: {
+                data: ['{{Channel}}', 'Predicted']
+            },
+            xAxis: [
+                {
+                    type: 'category',
+                    // boundaryGap: false,
+                    // splitLine: { show: false },
+                    data: month_list,
+                    axisLabel: {
+                        // textStyle: {
+                        //     color: '#FFF'
+                        // },
+                        interval: 0,
+                        rotate: 50
+                    }
+                }
+            ],
+            dataZoom: [
+                {
+                    type: 'inside',
+                    zoomOnMouseWheel: "ctrl",
+                        startValue: m_first,
+                        endValue: m_last
+                },
+                {
+                    type: 'slider'
+                }
+            ],
+            yAxis: [
+                {
+                    splitLine: { show: true },
+                    type: 'value'
+                }
+            ],
+            series: [
+                {
+                    name: '{{Channel}}',
+                    type: 'line',
+                    data: exist_month_value
+                },
+                {
+                    name: 'Predicted',
+                    type: 'line',
+                    data: predict_month_value
+                    // }
+                },
+            ]
+        };
+
+        if (option && typeof option === 'object') {
+            myChart.setOption(option);
+        }
+
+
+
+        $(window).resize(function () {
+            console.log('resize');
+            resizeChart();
+        });
+
+
+        function resizeChart() {
+            $(".echarts_div").each(function () {
+                console.log(this);
+                var id = $(this).attr('_echarts_instance_');
+                if (id) window.echarts.getInstanceById(id).resize();
+            });
+        }
+        $(".daterangepicker-field").daterangepicker({
+            forceUpdate: true,
+            minDate: [moment().subtract(0, 'days'), 'inclusive'],
+            maxDate: moment().add(2, 'years'),
+            orientation: 'left',
+            period: ('day' | 'week' | 'month' | 'quarter' | 'year'),
+            ranges: {
+                'This Week': [moment().startOf('week'), moment().endOf('week')],
+                'This Month': [moment().startOf('month'), moment().endOf('month')],
+                'Next Month': [moment(), moment().add(1, 'months')],
+                'Next Week': [moment(), moment().add(1, 'week')],
+                'All Time': 'all-time', // [minDate, maxDate],
+                'Custom Range': 'custom'
+            },
+            callback: function (startDate, endDate, period) {
+                var title = startDate.format('D MMMM, YYYY') + ' – ' + endDate.format('D MMMM, YYYY');
+                $(this).text(title)
+            }
+        });
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                dom: 'lBfrtip',
+                buttons: [
+                    {
+                        extend: 'csv',
+                        text: 'Export to CSV',
+                        className: 'btn btn-outline-secondary float-left ml-2',
+                        title: 'Generated Forecast',
+
+                    }
+                ],
+                "ordering":false
+            });
+        });
+    </script>
+</body>
+
+</html>

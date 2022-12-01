@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WFM - Login</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="login-container">
+                <div class="login-left">
+                    <div class="lbox">
+                        <h2 class="clogo">WFM</h2>
+                        <img src="{% static 'images/LD-logo.png' %}" alt="Lumina Datamatics" class="llogo">
+                        <p>© 2022 Lumina Datamatics Ltd. All Rights Reserved.</p>
+                    </div>
+                </div>
+                <div class="login-right">
+                    <div id="message">
+                        {% for message in messages %}
+                        <h3 class="{{ message.tags }}" style="font-size: 1em;text-align: center;" >{{message}}</h3>
+                        {% endfor %}
+                    </div>
+                    <form method="POST" class="form-signin" >
+                        {% csrf_token %}
+                        <h2 class="form-signin-heading">Login</h2>
+                        <div class="group">
+                            <input type="text" name="username" id="username">
+                            <label>Email address</label>
+                        </div>
+
+                        <div class="group">
+                            <input type="password" name="password" id="password">
+                            <label>Password</label>
+                        </div>
+                        <div class="group" style="margin-bottom: 30px;">
+                            <button class="btn btn-lg btn-outline-dark btn-block" type="submit">Sign in</button>
+                            <!-- <a href="#" class="forgotPass">Forgot your password?</a> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- <script>
+        function validateLogin() {
+            if ($("#username").val() == "" || $("#password").val() == "") {
+                $("#missing").fadeTo(2000, 500).slideUp(500, function () {
+                    $("#missing").slideUp(500);
+                });
+                return false;
+            } else if ($("#username").val() != "admin" && $("#password").val() != "admin") {
+                $("#wrong").fadeTo(2000, 500).slideUp(500, function () {
+                    $("#wrong").slideUp(500);
+                });
+                return false;
+            } else if ($("#username").val() == "admin" && $("#password").val() == "admin") {
+                $("#success").fadeTo(2000, 500).slideUp(500, function () {
+                    $("#success").slideUp(500);
+                });
+                return true;
+            }
+        }
+    </script> -->
+
+</body>
+
+</html>
